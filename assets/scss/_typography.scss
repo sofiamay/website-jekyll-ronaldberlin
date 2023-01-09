@@ -40,9 +40,13 @@ h1, .h1{
 }
 
 h2, .h2{
-  font-size: 60px;
+  color: $ternary-color;
+  font-family: $ternary-font;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 70px;
   @include desktop {
-    font-size: 50px;
+    font-size: 70px;
   }
 }
 
@@ -60,4 +64,15 @@ h5, .h5{
 
 h6, .h6{
   font-size: 14px;
+}
+
+hr {
+  margin: 25px auto 50px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  overflow: visible;
+  color: $ternary-color,
 }

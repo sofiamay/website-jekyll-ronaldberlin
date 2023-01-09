@@ -153,4 +153,10 @@
       myShuffle.filter(input.value);
     }
   });
+
+  /* ########################################### Insert HR after most headers ############################################## */
+
+  $('h2').after('<hr/>');
+  
+
 })(jQuery);

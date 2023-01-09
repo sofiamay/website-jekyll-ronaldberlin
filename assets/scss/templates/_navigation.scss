@@ -1,8 +1,9 @@
 .navigation{
-  padding: 40px 130px;
+  padding: 20px 130px;
+  background-color: $ternary-color;
   transition: .3s ease;
   &.nav-bg {
-    background-color: $primary-color;
+    background-color: $ternary-color;;
     padding: 15px 100px;
     @include desktop {
       padding: 15px 20px;
@@ -29,4 +30,10 @@
 
 .navbar-dark .navbar-nav .nav-link{
   color: $white;
+}
+
+h3, .h3 {
+  text-transform: uppercase;
+  font-size: 25px;
+    font-weight: 700;
 }

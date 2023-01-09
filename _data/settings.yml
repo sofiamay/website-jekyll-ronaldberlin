@@ -2,14 +2,14 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross
+title: Ronald Berlin Architect
 logo:
-author: themefisher
-description: this is meta description
-email: steve.fruits@email.com
+author: Sofai Berlin
+description: Ronald Berlin Architect - Residential Architect based in Princeton NJ
+email: ronald@ronaldberlin.com
 phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
-copyright: Copyright &copy; 2020 Designed by [Themefisher](https://themefisher.com) & Developed by [Getjekyllthemes](https://getjekyllthemes.com)
+address: 245 Jefferson Rd, Princeton, NJ, USA
+copyright: Copyright &copy; 2023 Designed and Developed by [Sofia Berlin](https://github.com/sofiamay)
 
 menu:
   - { name: About, link: "/about" }
@@ -36,7 +36,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Ronald Berlin Architect
 
 social:
   - { icon: "ti-facebook", link: "#" }

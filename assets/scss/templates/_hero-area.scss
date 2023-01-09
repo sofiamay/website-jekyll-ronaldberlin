@@ -1,13 +1,35 @@
 .hero-area {
-  padding: 300px 0 200px;
+  padding: 150px 0 100px;
+  overflow: hidden;
+  // padding: 300px 0 200px;
   position: relative;
-  @include tablet {
-    padding: 250px 0 150px;
-    overflow: hidden;
+  @media only screen and (min-width: 768px) {
+    padding: 200px 0 150px;
   }
+  @media only screen and (min-width: 992px) {
+    padding: 300px 0 200px;
+  }
+  // @include tablet {
+  //   padding: 250px 0 150px;
+  //   overflow: hidden;
+  // }
   h1{
+    font-size: 30px;
     position: relative;
     z-index: 2;
+    @media only screen and (min-width: 576px) {
+      font-size: 50px;
+    }
+    @media only screen and (min-width: 768px) {
+      font-size: 80px;
+    }
+  }
+  img.logo {
+    width: 120px;
+    margin-bottom: 50px;
+    @media only screen and (min-width: 768px) {
+      width: 256px;
+    }
   }
 }
 

@@ -32,10 +32,10 @@ h1,h2,h3,h4,h5,h6 {
 h1, .h1{
   text-transform: uppercase;
   line-height: 1;
-  font-size: 66px;
+  font-size: 50px;
   text-align: center;
-  @include desktop {
-    font-size: 60px;
+  @media only screen and (min-width: 768px) {
+    font-size: 66px;
   }
 }
 

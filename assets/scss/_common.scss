@@ -74,6 +74,17 @@ a:hover {
   }
 }
 
+hr.section-title {
+  margin: 25px auto 80px;
+  padding: 0;
+  max-width: 250px;
+  border: 0;
+  border-top: solid 5px;
+  text-align: center;
+  overflow: visible;
+  color: $ternary-color,
+}
+
 .bg-cover {
   background-size: cover;
   background-position: center center;

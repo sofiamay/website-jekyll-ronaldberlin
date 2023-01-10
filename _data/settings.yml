@@ -156,24 +156,27 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Recognition
 services:
   - {
-      name: UI Design,
-      icon: ti-palette,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Honors,
+      icon: ti-medall,
+      description: "View all",
+      link: honors.html,
       active: ,# Add true to select section
     }
   - {
-      name: UX Design,
-      icon: ti-vector,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Publications,
+      icon: fa-regular fa-file-lines,
+      description: "View all",
+      link: publications.html,
       active: true, # Add true to select section
     }
   - {
-      name: Interaction Design,
-      icon: ti-panel,
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      name: Selected Work,
+      icon: ti-home,
+      description: "View All",
+      link: selected-work.html,
       active: ,# Add true to select section
     }
 

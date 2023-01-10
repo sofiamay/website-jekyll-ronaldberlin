@@ -75,6 +75,10 @@
   * {
     color: $white;
   }
+
+  a:hover {
+    color: $secondary-color;
+  }
 }
 
 .hover-shadow{

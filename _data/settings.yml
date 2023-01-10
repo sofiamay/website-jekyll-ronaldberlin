@@ -120,27 +120,37 @@ experience:
 #-------------------------------
 # Education Section
 
-education-title: Education
+education-title: Education & Licensure
 education:
   - {
-      name: Marters in UX Design,
-      date: "2006",
-      organization: "Masassusets Institute of Technology",
+      name: B.A.,
+      date: "1976",
+      organization: "Yale University",
     }
   - {
-      name: Honours in Fine Arts,
-      date: "2004",
-      organization: "Harvard University",
+      name: Masters of Architecture,
+      date: "1979",
+      organization: "Princeton University",
     }
   - {
-      name: Higher Secondary Certificat,
-      date: "2000",
-      organization: "Cardiff School",
+      name: State of New Jersey,
+      date: "#11356",
+      organization: "License",
     }
   - {
-      name: Secondary School Certificate,
-      date: "1998",
-      organization: "Cardiff School",
+      name: Commonwealth of Pennsylvania,
+      date: "#RA-013558-8",
+      organization: "License",
+    }
+  - {
+      name: State of New York,
+      date: "#025588",
+      organization: "License",
+    }
+  - {
+      name: State of New Hampshire,
+      date: "#3670",
+      organization: "License",
     }
 
 #-------------------------------

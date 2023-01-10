@@ -118,6 +118,12 @@ hr.section-title {
 
 .bg-primary {
   background: $secondary-color !important;
+  .section-title {
+    color: $primary-color !important;
+  }
+  hr {
+    color: $primary-color !important;
+  }
 }
 
 .bg-gray{

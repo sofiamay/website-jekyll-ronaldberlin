@@ -55,6 +55,7 @@ h3, .h3{
 }
 
 h4, .h4{
+  color: $primary-color;
   font-size: 22px;
 }
 
@@ -66,3 +67,7 @@ h6, .h6{
   font-size: 14px;
 }
 
+
+.dark-text {
+  color: $dark-grey !important;
+}

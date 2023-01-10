@@ -92,10 +92,13 @@
   $(".testimonial-slider").slick({
     dots: true,
     infinite: true,
-    speed: 300,
+    speed: 100,
     slidesToShow: 1,
     arrows: false,
     adaptiveHeight: true,
+    swipe: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
   });
 
   // clients logo slider

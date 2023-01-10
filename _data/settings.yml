@@ -260,20 +260,20 @@ portfolio-items:
 # Testimonials Section
 
 testimonial-items:
-  - name: "Jesica Gomez"
+  - name: "John Garretson"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Garretson Custom Builders LLC"
+    content: "Having worked with Ron Berlin for several years on various projects, I am thoroughly pleased as a general contractor by his collaborative spirit for problem solving, his precise and articulate style of communication and his commitment to excellence.  It's always a very satisfying experience to build work beautifully designed by Ron that is both aesthetically sensitive and practical.   He has a keen knowledge of architectural history tempered by a wonderfully creative spirit.  Ron cares about people as much as he cares about design.  He listens intently, mediates misunderstandings with diplomacy and fairness, and is unfailingly honest -- a true gentleman."
 
-  - name: "Jesica Gomez"
+  - name: "Brad Middlekauff and Nancy Goldin"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Client"
+    content: "We first met Ron when we were looking for an architect to help us on a small project, the conversion of a screened porch to a home office. We were so pleased with his work that subsequently we hired him for two major renovations/additions. Ron is a pleasure to work with—he is thoughtful, taking time to understand his client’s needs and preferences, creative and meticulous. He enjoys the challenges inherent in any job and has always had the ability to come up with solutions for the seemingly insurmountable problems that come with home design. Ron’s sense of humor and clear passion for what he does make working with him a delight."
 
-  - name: "Jesica Gomez"
+  - name: "Roger Shatzkin"
     image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+    designation: "Client"
+    content: "Ron Berlin works with an architectural vision — incorporating clean and simple lines, the play of light and color, the manipulation of spatial volumes, attention to detail, and a commitment to historical authenticity. Equally important, however, is your vision as the client, and ultimately your needs come first. Ron will negotiate, coax, give in, come up with innovative alternatives, and then push himself until your plan represents the best synthesis of architect and client, and of the practical and the esthetic."
 
 #-------------------------------
 # Client Slider Section

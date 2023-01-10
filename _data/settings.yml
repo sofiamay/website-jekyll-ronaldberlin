@@ -134,23 +134,23 @@ education:
     }
   - {
       name: State of New Jersey,
-      date: "#11356",
-      organization: "License",
+      date: "License",
+      organization: "#11356",
     }
   - {
       name: Commonwealth of Pennsylvania,
-      date: "#RA-013558-8",
-      organization: "License",
+      date: "License",
+      organization: "#RA-013558-8",
     }
   - {
       name: State of New York,
-      date: "#025588",
-      organization: "License",
+      date: "License",
+      organization: "#025588",
     }
   - {
       name: State of New Hampshire,
-      date: "#3670",
-      organization: "License",
+      date: "License",
+      organization: "#3670",
     }
 
 #-------------------------------

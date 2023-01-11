@@ -241,14 +241,14 @@ hr.section-title {
     margin: 2px;
     &.slick-active{
       button{
-        background: $white;
+        background: $primary-color;
         width: 25px;
       }
     }
     button{
       height: 6px;
       width: 12px;
-      background: rgba($color: $white, $alpha: .5);
+      background: rgba($color: $primary-color, $alpha: .5);
       color: transparent;
       border-radius: 10px;
       overflow: hidden;
@@ -257,6 +257,8 @@ hr.section-title {
     }
   }
 }
+
+
 /* /slick slider */
 
 /* form */

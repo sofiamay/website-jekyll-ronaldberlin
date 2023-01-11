@@ -137,6 +137,13 @@
 /* /portfolio */
 
 /* testimonial */
+
+.testimonial-slider {
+  border: 2px solid $primary-color;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .testimonial-content {
   strong {
     color: $secondary-color;

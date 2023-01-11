@@ -185,19 +185,40 @@ services:
 
 # Portfolio Home Section
 portfolio-home-items:
-  - image: "assets/images/portfolio/item-1.png"
+  - image: "assets/images/portfolio/davis_icon.jpg"
     url: "#"
 
-  - image: "assets/images/portfolio/item-2.png"
+  - image: "assets/images/portfolio/poland_icon.jpg"
     url: "#"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/portfolio/wasserman_icon.jpg"
     url: "#"
 
-  - image: "assets/images/portfolio/item-4.png"
+  - image: "assets/images/portfolio/hodgson_icon.jpg"
     url: "#"
 
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/portfolio/carr_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/scott_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/veale_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/battle_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/diciccio_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/marketfair_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/west_icon.jpg"
+    url: "#"
+
+  - image: "assets/images/portfolio/writersblock_icon.jpg"
     url: "#"
 
 # Portfolio Page

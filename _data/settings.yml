@@ -156,8 +156,8 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Recognition
-services:
+recognition-title: Recognition
+recognitions:
   - {
       name: Honors,
       icon: ti-medall,

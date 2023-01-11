@@ -1,0 +1,24 @@
+{% if site.data.settings.recognitions %}
+<!-- services -->
+<section class="section bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ site.data.settings.recognition-title }}</h2>
+      </div>
+      {% for recognition in site.data.settings.recognitions %}
+      <div class="col-md-4 mb-4 mb-md-0">
+        <div class="card hover-shadow shadow">
+          <div class="card-body {% if recognition.active %}active-bg-primary{% endif %} text-center px-4 py-5">
+            <i class="{{ recognition.icon }} icon mb-5 d-inline-block"></i>
+            <h4 class="mb-4">{{ recognition.name }}</h4>
+            <p><a href="{{site.baseurl}}/{{recognition.link}}">{{ recognition.description }}</a></p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- /services -->
+{% endif %}

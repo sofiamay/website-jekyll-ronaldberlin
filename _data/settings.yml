@@ -83,6 +83,42 @@ team:
     image: "assets/images/team/member-3.png"
     designation: "Designer"
 
+#Selected Works
+selected-residential:
+  - content: "The Bolton Residence, Princeton, NJ"
+
+  - content: "The Scott Apartment Remodeling, Park Avenue, New York, NY"
+
+  - content: "The Kaczerski-Shatzkin Residence, Princeton, NJ"
+
+  - content: "The Hodgson Residence, Ragged Mountain, Andover, New Hampshire"
+
+  - content: "Country House and Pavilion, Kalinowka, Poland"
+
+  - content: "Apartment combination, West 66th Street, New York, NY"
+
+  - content: "Remodeling of residence owned by Princeton University"
+
+  - content: "Residence of the Prince & Princess of Morocco, exterior renovations, Princeton, NJ"
+
+  - content: "The Middlekauff-Goldin Residence, Princeton, New Jersey"
+
+  - content: "The Browder Residence, Princeton, New Jersey"
+
+  - content: "The DiCicco-Bloom Residence, Princeton Junction, New Jersey"
+
+  - content: "Double Townhouse Combination, East 85th Street, New York, NY"
+
+  - content: "The Woodrow Wilson House, Princeton, New Jersey"
+
+  - content: "The Battle Residence, and Cottage Home Office, Princeton, New Jersey"
+
+  - content: "The Parlapiano-Gryzbowska Residence, South Orange, New Jersey"
+
+  - content: "The Dellenbaugh Studio and Residence, Madison, New Jersey"
+
+  
+
 #-------------------------------
 # Skills Section
 

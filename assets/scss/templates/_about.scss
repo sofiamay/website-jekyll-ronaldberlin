@@ -12,6 +12,10 @@
   border: 10px solid;
 }
 
+.border-medium{
+  border: 3px solid $primary-color;
+}
+
 .drag-lg-top{
   margin-top: -230px;
   @include desktop {

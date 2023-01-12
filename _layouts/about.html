@@ -29,9 +29,9 @@ layout: default-no-footer
         <hr class="small-title">
         {{ content }}
       </div>
-      <div class="col-md-4 text-center drag-lg-top">
+      <div class="col-md-4 text-center align-self-center">
         <div class="shadow-down mb-4">
-          <!-- <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100 rounded-lg border-thick border-white"> -->
+          <img src="{{ site.baseurl }}/{{ page.image }}" alt="{{ page.author }}" class="img-fluid w-100 rounded-lg border-medium">
         </div>
         <!-- <img src="{{ site.baseurl }}/{{ page.signature }}" alt="signature" class="img-fluid"> -->
         <!-- <h4>{{ page.author }}</h4> -->
@@ -41,6 +41,4 @@ layout: default-no-footer
 </section>
 <!-- /about -->
 
-{% include work-process-section.html %}
-
-{% include team-section.html %}
+{% include selected-works.html %}

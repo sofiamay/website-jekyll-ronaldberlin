@@ -1,6 +1,10 @@
 (function ($) {
   "use strict";
 
+  /* ########################################### Insert HR after headers ############################################## */
+
+  $('h2.section-title').after('<hr class="section-title"/>');
+
   // Sticky Menu
   $(window).scroll(function () {
     if ($(".navigation").offset().top > 100) {
@@ -156,10 +160,6 @@
       myShuffle.filter(input.value);
     }
   });
-
-  /* ########################################### Insert HR after headers ############################################## */
-
-  $('h2.section-title').after('<hr class="section-title"/>');
   
 
 })(jQuery);

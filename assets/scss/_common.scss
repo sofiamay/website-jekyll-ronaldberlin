@@ -72,13 +72,22 @@ a:hover {
   &-title {
     font-family: $secondary-font;
   }
+  &.top-section {
+    margin-top: 100px;
+  }
+}
+
+hr {
+  margin: 10px 0px 50px;
+  max-width: 200px;
+  padding: 0;
+  border: 0;
+  border-top: solid 2px;
 }
 
 hr.section-title {
   margin: 25px auto 80px;
-  padding: 0;
   max-width: 250px;
-  border: 0;
   border-top: solid 5px;
   text-align: center;
   overflow: visible;

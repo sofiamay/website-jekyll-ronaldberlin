@@ -286,60 +286,75 @@ portfolio-home-items:
     url: "#"
 
 # Portfolio Page
+
 portfolio-label:
-  - { title: "UI/UX Design", type: "design" }
-  - { title: "BRANDING", type: "branding" }
-  - { title: "ILLUSTRATION", type: "illustration" }
+  - { title: "RESIDENTIAL", type: "residential" }
+  - { title: "COMMERCIAL", type: "commercial" }
+  - { title: "PRAISED", type: "honored" }
 
 portfolio-items:
-  - image: "assets/images/portfolio/item-1.png"
+  - image: "assets/images/portfolio/davis_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-2.png"
+  - image: "assets/images/portfolio/poland_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "branding"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/portfolio/wasserman_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-6.png"
+  - image: "assets/images/portfolio/hodgson_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "branding"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-8.png"
+  - image: "assets/images/portfolio/carr_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-5.png"
+  - image: "assets/images/portfolio/scott_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-1.png"
+  - image: "assets/images/portfolio/veale_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "branding"
+      - type: "residential"
 
-  - image: "assets/images/portfolio/item-3.png"
+  - image: "assets/images/portfolio/battle_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
+      - type: "residential"
+      - type: "honored"
 
-  - image: "assets/images/portfolio/item-7.png"
+  - image: "assets/images/portfolio/diciccio_icon.jpg"
     url: "#"
     portfolio-type:
-      - type: "illustration"
+      - type: "residential"
+
+  - image: "assets/images/portfolio/marketfair_icon.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "commercial"
+      - type: "honored"
+
+  - image: "assets/images/portfolio/west_icon.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "residential"
+
+  - image: "assets/images/portfolio/writersblock_icon.jpg"
+    url: "#"
+    portfolio-type:
+      - type: "commercial"
+      - type: "honored"
 
 #-------------------------------
 # Testimonials Section

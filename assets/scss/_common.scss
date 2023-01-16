@@ -130,6 +130,9 @@ hr.section-title {
   .section-title {
     color: $primary-color !important;
   }
+  .simple-list {
+    background-color: #fff;
+  }
   hr {
     color: $primary-color !important;
   }
@@ -302,14 +305,10 @@ textarea.form-control{
 
 /* Lists */
 .simple-list{
+  border: 1px solid $gray;
+  border-radius: 5px;
   h3 {
     margin: 30px 0px 40px;
-  }
-  .list-column{
-    background-color: $gray;
-    .list-item{
-      
-    }
   }
 }
 /* /Lists/ */

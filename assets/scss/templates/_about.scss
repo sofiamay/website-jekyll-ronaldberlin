@@ -1,6 +1,14 @@
 .about-section {
   hr {
-    max-width: 325px;
+    max-width: 450px;
+    text-align: center;
+    margin: 25px auto 60px;
+  }
+}
+
+.selected-works {
+  #residential-projects {
+    border-right: 1px solid;
   }
 }
 

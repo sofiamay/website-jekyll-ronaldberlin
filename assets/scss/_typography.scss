@@ -51,7 +51,12 @@ h2, .h2{
 }
 
 h3, .h3{
+}
+
+h3.small-title {
   font-size: 40px;
+  text-align: center;
+  color: $primary-color;
 }
 
 h4, .h4{

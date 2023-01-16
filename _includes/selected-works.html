@@ -8,8 +8,10 @@
       </div>
     </div>
     <div class="row simple-list">
-      <div id="residential-projects" class="col-lg-6 col-md-6 mb-40 list-column">
-        <h3> Selected Residential</h3>
+      <div id="residential-projects" class="col-lg-6 mb-40 list-column">
+        <div class="list-title">
+          <h3 class="underlined"> Selected Residential</h3>
+        </div>
         <div>
           {% for project in site.data.settings.selected-residential %}
           <div class="list-item">
@@ -18,8 +20,10 @@
           {% endfor %}
         </div>
       </div>
-      <div id="commercial-projects" class="col-lg-6 col-md-6 mb-40 list-column">
-        <h3> Selected Commercial </h3>
+      <div id="commercial-projects" class="col-lg-6 mb-40 list-column">
+        <div class="list-title">
+          <h3 class="list-title underlined"> Selected Commercial </h3>
+        </div>
         <div>
           {% for project in site.data.settings.selected-commercial %}
           <div class="list-item">

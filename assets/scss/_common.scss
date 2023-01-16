@@ -94,6 +94,16 @@ hr.section-title {
   color: $ternary-color,
 }
 
+.underlined {
+  display: inline-block;
+  &:after {
+    content: '';
+    display: block;
+    border-top: 2px solid $primary-color;
+    margin-top: 0.25em;
+  }
+}
+
 .bg-cover {
   background-size: cover;
   background-position: center center;
@@ -307,6 +317,14 @@ textarea.form-control{
 .simple-list{
   border: 1px solid $gray;
   border-radius: 5px;
+  .list-column{
+    .list-title{
+      text-align: center;
+      @media all and (min-width: 992px) {
+        text-align: left;
+      }
+    }
+  }
   h3 {
     margin: 30px 0px 40px;
   }

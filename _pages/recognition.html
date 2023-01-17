@@ -51,7 +51,7 @@ title: Recognition
 <!-- Honors and Prizes -->
 
 <!-- Publications-->
-<section class="section recognition publications">
+<section class="section recognition honors-prizes bg-primary">
   <div class="container">
     <div class="row mb-5">
       <div class="col-12 text-center">
@@ -61,15 +61,31 @@ title: Recognition
     <div class="row simple-list">
       <div id="residential-projects" class="col-lg-6 mb-40 list-column">
         <div class="list-title">
-          <h3 class="underlined"> Honors</h3>
+          <h3 class="underlined"> 2000-2023</h3>
         </div>
         <div>
-          {% for honor in site.data.settings.honors %}
+          {% for publication in site.data.settings.publications-1 %}
           <div class="d-flex flex-column list-item">
             <p>
-              <strong>{{ honor.award }}</strong><br>
-              {{ honor.org }} <br>
-              <span class="small-text">{{ honor.year}}<span>
+              <strong>{{ publication.title }}</strong><br>
+              {{ publication.publisher }} <br>
+              <span class="small-text">{{ publication.date}}<span>
+          </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div class="col-lg-6 mb-40 list-column">
+        <div class="list-title">
+          <h3 class="list-title underlined"> 1983-2000 </h3>
+        </div>
+        <div>
+          {% for publication in site.data.settings.publications-2 %}
+          <div class="d-flex flex-column list-item">
+            <p>
+              <strong>{{ publication.title }}</strong><br>
+              {{ publication.publisher }} <br>
+              <span class="small-text">{{ publication.date }}</span>
           </p>
           </div>
           {% endfor %}

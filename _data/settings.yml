@@ -560,17 +560,17 @@ publications-2:
     publisher: "Princeton Living"
     date: "December, 1995"
 
-  # - title: "Architectural Detailing in Contract Interiors"
-  #   publisher: "W.W. Staebler, Whitney Library of Design"
-  #   date: "1988"
+  - title: "Architectural Detailing in Contract Interiors"
+    publisher: "W.W. Staebler, Whitney Library of Design"
+    date: "1988"
 
-  # - title: "A House That Bloomed"
-  #   publisher: "Connecticut Magazine"
-  #   date: "May, 1988"
+  - title: "A House That Bloomed"
+    publisher: "Connecticut Magazine"
+    date: "May, 1988"
 
-  # - title: "[Unknown Title]"
-  #   publisher: "The New York Times"
-  #   date: "June 12, 1983"
+  - title: "[Unknown Title]"
+    publisher: "The New York Times"
+    date: "June 12, 1983"
 
 
 #-------------------------------

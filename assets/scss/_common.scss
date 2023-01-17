@@ -142,6 +142,7 @@ hr.section-title {
   }
   .simple-list {
     background-color: #fff;
+    border: 1px solid $gray;
   }
   hr {
     color: $primary-color !important;
@@ -315,7 +316,8 @@ textarea.form-control{
 
 /* Lists */
 .simple-list{
-  border: 1px solid $gray;
+  background-color: #e7edf0;
+  border: 2px solid $primary-color;
   border-radius: 5px;
   .list-column{
     .list-title{

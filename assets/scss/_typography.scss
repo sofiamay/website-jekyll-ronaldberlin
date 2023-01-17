@@ -76,3 +76,9 @@ h6, .h6{
 .dark-text {
   color: $dark-grey !important;
 }
+
+p {
+  .small-text {
+    font-size: 12px;
+  }
+}

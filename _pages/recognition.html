@@ -1,0 +1,51 @@
+---
+layout: page
+title: Recognition
+---
+<!-- Honors and Prizes-->
+<section class="section honors-prizes">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-12 text-center">
+        <h2 class="section-title">Honors and Prizes</h2>
+      </div>
+    </div>
+    <div class="row simple-list">
+      <div id="residential-projects" class="col-lg-6 mb-40 list-column">
+        <div class="list-title">
+          <h3 class="underlined"> Honors</h3>
+        </div>
+        <div>
+          {% for honor in site.data.settings.honors %}
+          <div class="d-flex flex-column list-item">
+            <p>
+              <strong>{{ honor.award }}</strong><br>
+              {{ honor.org }} <br>
+              <span class="small-text">{{ honor.year}}<span>
+          </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      <div id="commercial-projects" class="col-lg-6 mb-40 list-column">
+        <div class="list-title">
+          <h3 class="list-title underlined"> Pro Bono </h3>
+        </div>
+        <div>
+          {% for probono in site.data.settings.pro-bono %}
+          <div class="d-flex flex-column list-item">
+            <p>
+              <strong>{{ probono.title }}</strong><br>
+              {{ probono.description }} <br>
+              {% if probono.year %}
+              <span class="small-text">{{ probono.year }}</span>
+              {% endif%}
+          </p>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Honors and Prizes -->

@@ -15,7 +15,8 @@ copyright: Copyright &copy; 2023 Designed and Developed by [Sofia Berlin](https:
 menu:
   - { name: About, link: "/about" }
   - { name: Portfolio, link: "/portfolio" }
-  - { name: Blog, link: "/blog" }
+  # - { name: Blog, link: "/blog" }
+  - { name: Recognition, link: "/recognition" }
   - { name: Contact, link: "/contact" }
 
 #-------------------------------
@@ -408,6 +409,90 @@ client-slider-items:
 
   - logo: "assets/images/clients-logo/client-logo-5.png"
     url: "#"
+
+#-------------------------------
+# Recoognition Section
+
+honors:
+  - award: "LEED Silver certification, The Whole Earth Center"
+    org: "Awarded by the US Green Building Council"
+    year: "2010"
+
+  - award: "Award for Historic Preservation, The Residence of the Prince of Morocco"
+    org: "The Historical Society of Princeton"
+    year: "2009"
+
+  - award: "2006 New Jersey Historic Preservation Award"
+    org: "State of New Jersey Department of Environmental Protection"
+    year: "2007"
+
+  - award: "New Jersey A.I.A. Honor Award for Excellence in Architecture"
+    org: "Princeton Writers' Block"
+    year: "2005"
+
+  - award: "New Jersey A.I.A. Smart Growth Architecture Award"
+    org: "Princeton Writers' Block"
+    year: "2004"
+
+  - award: "Finalist, Municipal Building Design Competition"
+    org: "Princeton Township"
+    year: "1997"
+
+  - award: "Award for Historic Preservation, The Captain’s House"
+    org: "The Historical Society of Princeton"
+    year: "1995"
+
+  - award: "The Liskin Foundation Award"
+    org: "The National Sculpture Society"
+    year: "1989"
+
+  - award: "Special Patrons' Award for Sculpture"
+    org: "The Phillips Mill Associationn"
+    year: "1982"
+
+  - award: "The Reed Prize for Drawing"
+    org: "The Newport Art Associatio"
+    year: "1981"
+
+  - award: "The Gordon McCormack Fellowship"
+    org: "Princeton University"
+    year: "1978-1979"
+
+  - award: "Honors in Art and Architecture"
+    org: "Yale University"
+    year: "1976"
+
+pro-bono:
+  - title: "Founding member"
+    description: "The Princeton Community Pool Ad Hoc Committee"
+
+  - title: "Talk, 'Old Housekeeping', Joint Historic & Sustainability Workshop"
+    description: "Princeton Public Library"
+    year: "2010"
+
+  - title: "Talk, 'The Woodrow Wilson House', Joint Historic & Sustainability Workshop"
+    description: "The Nassau Club, Princeton, NJ"
+    year: "2009"
+
+  - title: "Princeton Environmental Commission"
+    description: "Green Home and Garden Tour"
+
+  - title: "'Princeton Writers Block' Folly [a writer/architect collaboration]"
+    description: "Awarded by the US Green Building Council"
+    year: "2010"
+
+  - title: "LEED Silver certification, The Whole Earth Center"
+    description: "w/ Paul Krugman"
+    year: "2004"
+
+  - title: "Former Chairman, Site Plan Review Advisory Board"
+    description: "Princeton Borough & Township"
+
+  - title: "Member and former Trustee"
+    description: "The Friends of Princeton Open Space"
+
+  - title: "Trustee and Founder"
+    description: "The Friends of the Institute Land"
 
 #-------------------------------
 # Contact Section

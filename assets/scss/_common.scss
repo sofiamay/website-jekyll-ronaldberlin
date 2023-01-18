@@ -29,6 +29,12 @@ ul {
   margin: 0px;
 }
 
+.list-inline>li {
+  display: inline-block;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 img {
   vertical-align: middle;
   border: 0;
@@ -387,3 +393,94 @@ textarea.form-control{
   }
 }
 /* /Headings/ */
+
+/* Modals */
+
+.portfolio-modal {
+  margin: 0px auto;
+  @media (min-width: 992px) {
+    max-width: none;
+  }
+  .modal-dialog {
+    @media (min-width: 576px) {
+      max-width: 80%;
+    }
+  }
+  .modal-content {
+    // padding: 100px 0;
+    padding: 50px 0;
+    min-height: 100%;
+    border: 0;
+    border-radius: 0;
+    text-align: center;
+    background-clip: border-box;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    @media (min-width: 768px) {
+      padding: 100px 0;
+    }
+    h2 {
+      margin: auto;
+      font-size: 3.5em;
+      color: $primary-color;
+       @media (min-width: 768px) {
+        font-size: 4em;
+      }
+    }
+    img {
+      margin: 30px 0px;
+    }
+    .item-details {
+      margin: 30px 0;
+    }
+  }
+}
+
+.portfolio-modal .close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    cursor: pointer;
+    @media (min-width: 768px) {
+      top: 25px;
+      right: 25px;
+      width: 75px;
+      height: 75px;
+    }
+}
+
+.portfolio-modal .close-modal:hover {
+    opacity: .3;
+}
+
+.portfolio-modal .close-modal .lr {
+    z-index: 1051;
+    width: 1px;
+    height: 45px;
+    margin-left: 35px;
+    background-color: $secondary-color;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    @media (min-width: 768px) {
+      height: 75px;
+    }
+}
+
+.portfolio-modal .close-modal .lr .rl {
+    z-index: 1052;
+    width: 1px;
+    height: 45px;
+    background-color: $secondary-color;
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    @media (min-width: 768px) {
+      height: 75px;
+    }
+}
+
+/* /Modals/ */

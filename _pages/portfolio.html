@@ -44,19 +44,21 @@ title: Portfolio
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
-      <div class="close-modal" data-dismiss="modal">
-        <div class="lr">
-          <div class="rl">
+      <div class="modal-header text-center">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl">
+            </div>
           </div>
         </div>
+        <h2>{{ project.title}}</h2>
       </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <div class="modal-body">
-              <h2>{{ project.title }}</h2>
-              <hr class="star-primary">
-              <img src="{{ project.main-img }}" class="img-responsive img-centered" alt="{{ project.alt }}">
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-lg-12 text-center"> 
+            <!-- <div class="col-lg-8 col-lg-offset-2"> -->
+              <img src="{{ project.main-img }}" class="img-fluid img-centered" alt="{{ project.alt }}">
               {% if project.description %}
               <p>{{ project.description }}</p>
               {% endif %}
@@ -76,7 +78,7 @@ title: Portfolio
             </div>
           </div>
         </div>
-      </div>
+    </div>
     </div>
   </div>
 </div>

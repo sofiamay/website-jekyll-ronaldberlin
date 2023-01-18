@@ -1,6 +1,6 @@
 projects:
   - title: "Davis House"
-    modal-id: "1"
+    modal-id: "davis"
     description: "A description here"
     alt: "Renovation on teh Davis House by Ronald Berlin Architect"
     main-img: "assets/images/portfolio/davis/davis_5.jpg"

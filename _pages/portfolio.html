@@ -37,50 +37,5 @@ title: Portfolio
 </section>
 <!-- /portfolio -->
 
+{% include portfolio-modal.html %}
 
-<!-- Modals -->
-{% for project in site.data.portfolio.projects %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl">
-            </div>
-          </div>
-        </div>
-        <h2>{{ project.title}}</h2>
-      </div>
-      <div class="modal-body">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-lg-12 text-center"> 
-            <!-- <div class="col-lg-8 col-lg-offset-2"> -->
-              <img src="{{ project.main-img }}" class="img-fluid img-centered" alt="{{ project.alt }}">
-              {% if project.description %}
-              <p>{{ project.description }}</p>
-              {% endif %}
-              <ul class="list-inline item-details">
-                <li>Contractor:
-                  <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
-                </li>
-                <li>Photo:
-                  <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
-                </li>
-                <li>Date:
-                  <strong class="link-color">{{ project.year }}</strong>
-                </li>
-              </ul>
-              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa-solid fa-x"></i>
-                Close</button>
-            </div>
-          </div>
-        </div>
-    </div>
-    </div>
-  </div>
-</div>
-{% endfor %}
-<!-- /Modals/ -->

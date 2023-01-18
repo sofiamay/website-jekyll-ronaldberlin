@@ -105,6 +105,8 @@
       slidesToShow: 4,
       slidesToScroll: 1,
       initialSlide: 2,
+      prevArrow: $(".slick-prev"),
+      nextArrow: $(".slick-next"),
       responsive: [
         {
           breakpoint: 992,
@@ -113,16 +115,6 @@
             slidesToScroll: 1,
           }
         },
-        // {
-        //   breakpoint: 576,
-        //   settings: {
-        //     slidesToShow: 2,
-        //     slidesToScroll: 1
-        //   }
-        // }
-        // You can unslick at a given breakpoint now by adding:
-        // settings: "unslick"
-        // instead of a settings object
       ]
     });
 

@@ -1,8 +1,13 @@
 projects:
   - title: "Davis House"
     modal-id: "davis"
-    description: "A description here"
-    alt: "Renovation on teh Davis House by Ronald Berlin Architect"
+    description: "RBA created additions and alterations to a 1970s house in Princeton. The new symmetrical composition welcomes the visitor through a sculptural entry portico composed of classical elements."
+    alt: "Renovation on the Davis House by Ronald Berlin Architect."
+    contractor: "Garretson Custom Builders"
+    contractor-url: "https://www.garretsonbuilder.com/"
+    photog: "Riccardo Barros"
+    photo-url: "https://ricardobarros.com/"
+    year: "2020"
     main-img: "assets/images/portfolio/davis/davis_5.jpg"
     images:
       - url: "assets/images/portfolio/davis/davis_1.jpg"

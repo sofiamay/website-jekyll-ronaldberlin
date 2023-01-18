@@ -63,14 +63,14 @@ title: Portfolio
               <p>{{ project.description }}</p>
               {% endif %}
               <ul class="list-inline item-details">
-                <li>Client:
-                  <strong>Some Client</strong>
+                <li>Contractor:
+                  <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
+                </li>
+                <li>Photo:
+                  <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
                 </li>
                 <li>Date:
-                  <strong>Some Date</strong>
-                </li>
-                <li>Service:
-                  <strong>Some Category</strong>
+                  <strong class="link-color">{{ project.year }}</strong>
                 </li>
               </ul>
               <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa-solid fa-x"></i>

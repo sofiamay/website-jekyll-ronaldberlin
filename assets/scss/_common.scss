@@ -40,6 +40,10 @@ img {
   border: 0;
 }
 
+a {
+  color: $link-color;
+}
+
 a,
 a:hover,
 a:focus {
@@ -65,6 +69,10 @@ a.text-dark{
 
 a:hover {
   color: $primary-color;
+}
+
+.link-color {
+  color: $link-color !important;
 }
 
 .slick-slide {
@@ -426,6 +434,13 @@ textarea.form-control{
        @media (min-width: 768px) {
         font-size: 4em;
       }
+    }
+    p {
+      margin-top: 40px;
+      margin-bottom: 40px;
+      margin-left: 5%;
+      margin-right: 5%;
+      padding: 4px;
     }
     img {
       margin: 30px 0px;

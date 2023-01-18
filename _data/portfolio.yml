@@ -10,21 +10,27 @@ projects:
     year: "2020"
     main-img: "assets/images/portfolio/davis/davis_5.jpg"
     images:
-      - url: "assets/images/portfolio/davis/davis_1.jpg"
+      - url: "assets/images/portfolio/davis/davis_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_1.jpg"
         alt: "columns on entry way of house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_2.jpg"
+      - url: "assets/images/portfolio/davis/davis_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_2.jpg"
         alt: "angled view of entry way with columns of house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_3.jpg"
+      - url: "assets/images/portfolio/davis/davis_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_3.jpg"
         alt: "full exterior view of green house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_4.jpg"
+      - url: "assets/images/portfolio/davis/davis_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_4.jpg"
         alt: "view of outdoor patio designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_5.jpg"
+      - url: "assets/images/portfolio/davis/davis_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_5.jpg"
         alt: "Front exterior view designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_6.jpg"
+      - url: "assets/images/portfolio/davis/davis_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/davis/davis_6.jpg"
         alt: "house before renovations by Ronald Berlin Architect designed by Ronald Berlin Architect"
     

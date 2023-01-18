@@ -1,4 +1,4 @@
-<!-- /odals -->
+<!-- Modals -->
 {% for project in site.data.portfolio.projects %}
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
@@ -15,12 +15,30 @@
       </div>
       <div class="modal-body">
         <div class="container-fluid">
+          <!-- Image and Description -->
           <div class="row">
             <div class="col-lg-12 text-center"> 
               <img src="{{ project.main-img }}" class="img-fluid img-centered" alt="{{ project.alt }}">
               {% if project.description %}
               <p>{{ project.description }}</p>
               {% endif %}
+            </div>
+          </div>
+          <!-- Image Carousel -->
+          <div class="row">
+            <div class="col-lg-10 mx-auto portfolio-slider">
+            {% for image in project.images %}
+            <!-- slider-item -->
+              <div class="text-center portfolio-content">
+                <a data-large="{{ image.full-size-url }}"><img src="{{ image.url }}" alt="{{ image.alt }}"></a>
+              </div>
+            {% endfor %}
+          </div>
+      </div>
+          </div>
+          <!-- Project Info & CLose Button -->
+          <div class="row">
+            <div class="col-lg-12 text-center">
               <ul class="list-inline item-details">
                 <li>Contractor:
                   <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>

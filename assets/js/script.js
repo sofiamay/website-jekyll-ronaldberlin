@@ -35,6 +35,12 @@
     });
   });
 
+  /* ########################################### Modals ############################################## */
+  $('#portfolioModal-davis').on('shown.bs.modal', function (e) {
+    $('#portfolioModal-davis').trigger('focus');
+    $(".portfolio-slider").slick("refresh");
+  })
+
   /* ########################################### hero parallax ############################################## */
   window.onload = function () {
     var parallaxBox = document.getElementById("parallax");
@@ -92,17 +98,27 @@
   }
   /* ########################################### /hero parallax ############################################## */
 
-  // testimonial-slider
-  $(".testimonial-slider").slick({
-    dots: true,
-    infinite: true,
-    speed: 100,
-    slidesToShow: 1,
-    arrows: false,
-    adaptiveHeight: true,
-    swipe: true,
-    autoplay: true,
-    autoplaySpeed: 2000,
+  $(document).ready(function(){
+    // Portfolio Slider
+    $(".portfolio-slider").not('.slick-initialized').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      initialSlide: 2,
+    });
+
+    // testimonial-slider
+    $(".testimonial-slider").slick({
+      dots: true,
+      infinite: true,
+      speed: 100,
+      slidesToShow: 1,
+      arrows: false,
+      adaptiveHeight: true,
+      swipe: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
   });
 
   // clients logo slider

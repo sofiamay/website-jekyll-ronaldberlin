@@ -252,39 +252,51 @@ recognitions:
 portfolio-home-items:
   - image: "assets/images/portfolio/davis_icon.jpg"
     url: "#"
+    modal-id: "davis"
 
   - image: "assets/images/portfolio/poland_icon.jpg"
     url: "#"
+    modal-id: "poland"
 
   - image: "assets/images/portfolio/wasserman_icon.jpg"
     url: "#"
+    modal-id: "wasserman"
 
   - image: "assets/images/portfolio/hodgson_icon.jpg"
     url: "#"
+    modal-id: "hodgson"
 
   - image: "assets/images/portfolio/carr_icon.jpg"
     url: "#"
+    modal-id: "carr"
 
   - image: "assets/images/portfolio/scott_icon.jpg"
     url: "#"
+    modal-id: "scott"
 
   - image: "assets/images/portfolio/veale_icon.jpg"
     url: "#"
+    modal-id: "veale"
 
   - image: "assets/images/portfolio/battle_icon.jpg"
     url: "#"
+    modal-id: "battle"
 
   - image: "assets/images/portfolio/diciccio_icon.jpg"
     url: "#"
+    modal-id: "diciccio"
 
   - image: "assets/images/portfolio/marketfair_icon.jpg"
     url: "#"
+    modal-id: "marketfair"
 
   - image: "assets/images/portfolio/west_icon.jpg"
     url: "#"
+    modal-id: west"
 
   - image: "assets/images/portfolio/writersblock_icon.jpg"
     url: "#"
+    modal-id: "writersblock"
 
 # Portfolio Page
 
@@ -296,63 +308,75 @@ portfolio-label:
 portfolio-items:
   - image: "assets/images/portfolio/davis_icon.jpg"
     url: "#"
+    modal-id: "davis"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/poland_icon.jpg"
     url: "#"
+    modal-id: "poland"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/wasserman_icon.jpg"
     url: "#"
+    modal-id: "wasserman"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/hodgson_icon.jpg"
     url: "#"
+    modal-id: "hodgson"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/carr_icon.jpg"
     url: "#"
+    modal-id: "carr"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/scott_icon.jpg"
     url: "#"
+    modal-id: "scott"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/veale_icon.jpg"
     url: "#"
+    modal-id: "veale"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/battle_icon.jpg"
     url: "#"
+    modal-id: "battle"
     portfolio-type:
       - type: "residential"
       - type: "honored"
 
   - image: "assets/images/portfolio/diciccio_icon.jpg"
     url: "#"
+    modal-id: "diciccio"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/marketfair_icon.jpg"
     url: "#"
+    modal-id: "marketfair"
     portfolio-type:
       - type: "commercial"
       - type: "honored"
 
   - image: "assets/images/portfolio/west_icon.jpg"
     url: "#"
+    modal-id: "west"
     portfolio-type:
       - type: "residential"
 
   - image: "assets/images/portfolio/writersblock_icon.jpg"
     url: "#"
+    modal-id: "writersblock"
     portfolio-type:
       - type: "commercial"
       - type: "honored"

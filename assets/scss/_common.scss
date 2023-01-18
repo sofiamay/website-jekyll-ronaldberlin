@@ -295,6 +295,11 @@ hr.section-title {
   }
 }
 
+.portfolio-gallery {
+  .slick-initialized .slick-slide {
+    padding: 10px;
+  }
+}
 
 /* /slick slider */
 
@@ -411,7 +416,7 @@ textarea.form-control{
   }
   .modal-dialog {
     @media (min-width: 576px) {
-      max-width: 80%;
+      max-width: 90%;
     }
   }
   .modal-content {

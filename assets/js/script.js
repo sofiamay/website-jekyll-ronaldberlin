@@ -130,6 +130,15 @@
       autoplay: true,
       autoplaySpeed: 2000,
     });
+
+      /* ########################################### /Gallery ############################################## */
+      $(".gallery-img").click(function(e){
+        // var imgSrc = e.currentTarget.attributes["data-largesize"];
+        var imgSrc = $(this).data('largesize');
+        console.log(imgSrc);
+        $('#portfolio-main-img').attr("src",imgSrc);
+
+      });
   });
 
   // clients logo slider

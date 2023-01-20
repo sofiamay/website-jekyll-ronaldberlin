@@ -33,6 +33,7 @@ projects:
       - url: "assets/images/portfolio/davis/davis_6_icon.jpg"
         full-size-url: "assets/images/portfolio/davis/davis_6.jpg"
         alt: "house before renovations by Ronald Berlin Architect designed by Ronald Berlin Architect"
+
   - title: "Poland Pavilion"
     modal-id: "poland"
     description: "This pleasure pavilion, an architectural 'folly' on the property of an estate in rural Poland, features an open dining space with fireplace, and an upper level belvedere for viewing the landscape."
@@ -55,7 +56,8 @@ projects:
       - url: "assets/images/portfolio/poland/poland_3_icon.jpg"
         full-size-url: "assets/images/portfolio/poland/poland_3.jpg"
         alt: "landscape view of pavilion in Poland designed by Ronald Berlin Architect"
-  - title: "Wasserman House"
+
+  - title: "Ranch House"
     modal-id: "wasserman"
     description: "RBA configured an existing ranch house, creating a new 2nd story master suite. We followed 'green building' practices, and saved the owners half a million dollars by avoiding demolition and new construction."
     alt: "Renovation on the Wasserman House by Ronald Berlin Architect."
@@ -93,4 +95,43 @@ projects:
       - url: "assets/images/portfolio/wasserman/wasserman_7_icon.jpg"
         full-size-url: "assets/images/portfolio/wasserman/wasserman_7.jpg"
         alt: "photo of fireplace mantle designed by Ronald Berlin Architect renovated by Ronald Berlin Architect"
+
+  - title: "Country House"
+    modal-id: "hodgson"
+    description: "RBA created a new country house situated on a mountainside in New Hampshire. This open, energy-efficient house is primariily heated by a wood stove, with a countercurent heat exchanger providing fresh air."
+    alt: "Energy-efficient country house in New HAmpshire designed by Ronald Berlin Architect."
+    contractor: "Frost Building Construction  "
+    contractor-url: ""
+    photog: ""
+    photo-url: ""
+    year: "2020"
+    main-img: "assets/images/portfolio/hodgson/hodgson_5.jpg"
+    images:
+      - url: "assets/images/portfolio/hodgson/hodgson_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_1.jpg"
+        alt: "exterior view of country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_2.jpg"
+        alt: "angled view of exterior view of country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_3.jpg"
+        alt: "interior view of country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_4.jpg"
+        alt: "interior view of stair well of country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_5.jpg"
+        alt: "top of the staircase looking down in a country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_6.jpg"
+        alt: "bedroom of a country house designed by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/hodgson/hodgson_7_icon.jpg"
+        full-size-url: "assets/images/portfolio/hodgson/hodgson_7.jpg"
+        alt: "bedroom of a country house designed by Ronald Rerlin Architect"
     

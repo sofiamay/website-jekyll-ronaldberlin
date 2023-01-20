@@ -36,12 +36,13 @@ projects:
   - title: "Poland Pavilion"
     modal-id: "poland"
     description: "This pleasure pavilion, an architectural 'folly' on the property of an estate in rural Poland, features an open dining space with fireplace, and an upper level belvedere for viewing the landscape."
+    alt: "Renovation on a ranch house by Ronald Berlin Architect"
     contractor: ""
     contractor-url: ""
     photog: ""
     photo-url: ""
     year: "2020"
-    main-img: "assets/images/portfolio/poland/poland_1.jpg"
+    main-img: "assets/images/portfolio/poland/poland_3.jpg"
     images:
       - url: "assets/images/portfolio/poland/poland_1_icon.jpg"
         full-size-url: "assets/images/portfolio/poland/poland_1.jpg"
@@ -54,4 +55,42 @@ projects:
       - url: "assets/images/portfolio/poland/poland_3_icon.jpg"
         full-size-url: "assets/images/portfolio/poland/poland_3.jpg"
         alt: "landscape view of pavilion in Poland designed by Ronald Berlin Architect"
+  - title: "Wasserman House"
+    modal-id: "wasserman"
+    description: "RBA configured an existing ranch house, creating a new 2nd story master suite. We followed 'green building' practices, and saved the owners half a million dollars by avoiding demolition and new construction."
+    alt: "Renovation on the Wasserman House by Ronald Berlin Architect."
+    contractor: "Franzoni Builders"
+    contractor-url: "https://franzoni-co.com/"
+    photog: "Kevin Birch"
+    photo-url: "https://www.tkbirchphoto.com/"
+    year: "2020"
+    main-img: "assets/images/portfolio/wasserman/wasserman_3.jpg"
+    images:
+      - url: "assets/images/portfolio/wasserman/wasserman_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_1.jpg"
+        alt: "front porch of house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_2.jpg"
+        alt: "photo of house before it was renovated by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_3.jpg"
+        alt: "front, angled view of house renovated by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_4.jpg"
+        alt: "photo of house before it was renovated by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_5.jpg"
+        alt: "night time photo of house exterior renovated by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_6.jpg"
+        alt: "photo of roof of house renovated by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/wasserman/wasserman_7_icon.jpg"
+        full-size-url: "assets/images/portfolio/wasserman/wasserman_7.jpg"
+        alt: "photo of fireplace mantle designed by Ronald Berlin Architect renovated by Ronald Berlin Architect"
     

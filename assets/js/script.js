@@ -36,10 +36,17 @@
   });
 
   /* ########################################### Modals ############################################## */
-  $('#portfolioModal-davis').on('shown.bs.modal', function (e) {
-    $('#portfolioModal-davis').trigger('focus');
-    $(".portfolio-slider").slick("refresh");
-  })
+
+  $('div')
+    .filter(function() {
+      return this.id.match(/portfolioModal-[A-za-z0–9_]/);
+    })
+    .on('shown.bs.modal', function(e) {
+      var portfolioModalSelector = '#' + e.currentTarget.id;
+      console.log(portfolioModalSelector);
+      $(portfolioModalSelector).trigger('focus');
+      $('.portfolio-slider').slick('refresh');
+    });
 
   /* ########################################### hero parallax ############################################## */
   window.onload = function () {

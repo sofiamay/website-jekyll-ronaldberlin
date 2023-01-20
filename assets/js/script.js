@@ -43,9 +43,34 @@
     })
     .on('shown.bs.modal', function(e) {
       var portfolioModalSelector = '#' + e.currentTarget.id;
-      console.log(portfolioModalSelector);
+      var projectName = $(portfolioModalSelector).data('project');
       $(portfolioModalSelector).trigger('focus');
-      $('.portfolio-slider').slick('refresh');
+      var sliderSelector = "#portfolioSlider-" + projectName;
+      $(sliderSelector).slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        initialSlide: 2,
+        prevArrow: $(".slick-prev"),
+        nextArrow: $(".slick-next"),
+        responsive: [
+          {
+            breakpoint: 992,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 1,
+            }
+          },
+        ]
+      });
+      $(sliderSelector).slick('refresh');
+      // $('#portfolioSlider-'+projectName).slick('refresh');
+    })
+    .on('hide.bs.modal', function(e) {
+      var portfolioModalSelector = '#' + e.currentTarget.id;
+      var projectName = $(portfolioModalSelector).data('project');
+      var sliderSelector = "#portfolioSlider-" + projectName;
+      $(sliderSelector).slick('unslick');
     });
 
   /* ########################################### hero parallax ############################################## */
@@ -107,23 +132,23 @@
 
   $(document).ready(function(){
     // Portfolio Slider
-    $(".portfolio-slider").not('.slick-initialized').slick({
-      infinite: true,
-      slidesToShow: 4,
-      slidesToScroll: 1,
-      initialSlide: 2,
-      prevArrow: $(".slick-prev"),
-      nextArrow: $(".slick-next"),
-      responsive: [
-        {
-          breakpoint: 992,
-          settings: {
-            slidesToShow: 3,
-            slidesToScroll: 1,
-          }
-        },
-      ]
-    });
+    // $(".portfolio-slider").not('.slick-initialized').slick({
+    //   infinite: true,
+    //   slidesToShow: 4,
+    //   slidesToScroll: 1,
+    //   initialSlide: 2,
+    //   prevArrow: $(".slick-prev"),
+    //   nextArrow: $(".slick-next"),
+    //   responsive: [
+    //     {
+    //       breakpoint: 992,
+    //       settings: {
+    //         slidesToShow: 3,
+    //         slidesToScroll: 1,
+    //       }
+    //     },
+    //   ]
+    // });
 
     // testimonial-slider
     $(".testimonial-slider").slick({
@@ -140,11 +165,13 @@
 
       /* ########################################### /Gallery ############################################## */
       $(".gallery-img").click(function(e){
+        // portfolioModal-{{ project.modal-id }}
         var imgSrc = $(this).data('largesize');
-        // $('#portfolio-main-img').attr("src",imgSrc);
-        $('#portfolio-main-img')
+        var project = $(this).data('project');
+        var selector = "#portfolio-main-" + project;
+        $(selector)
           .fadeOut(250, function() {
-            $('#portfolio-main-img').attr("src", imgSrc);
+            $(selector).attr("src", imgSrc);
           })
           .fadeIn(250);
       });

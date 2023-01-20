@@ -1,6 +1,6 @@
 <!-- Modals -->
 {% for project in site.data.portfolio.projects %}
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" tabindex="-1" role="dialog"
+<div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" data-project="{{ project.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -19,7 +19,7 @@
           <!-- Image and Description -->
           <div class="row">
             <div class="col-lg-12 mx-auto text-center"> 
-              <img src="{{ project.main-img }}" class="img-fluid img-centered gallery-main-img" id="portfolio-main-img" alt="{{ project.alt }}">
+              <img src="{{site.url}}/{{ project.main-img }}" class="img-fluid img-centered gallery-main-img" id="portfolio-main-{{ project.modal-id }}" alt="{{ project.alt }}">
             </div>
           </div>
           <!-- Image Carousel -->
@@ -27,11 +27,11 @@
             <div class="col-1 p-0 position-relative prev-arrow">
               <a class="slick-prev" alt="previous"><i class="fa-solid fa-caret-left icon mb-4 d-inline-block"></i></a>
             </div>
-            <div class="col-10 px-1 mx-auto text-center portfolio-slider">
+            <div class="col-10 px-1 mx-auto text-center portfolio-slider" id="portfolioSlider-{{ project.modal-id }}">
             {% for image in project.images %}
             <!-- slider-item -->
               <div class="text-center portfolio-content">
-                <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ image.full-size-url }}" src="{{ image.url }}" alt="{{ image.alt }}"></a>
+                <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ image.full-size-url }}" data-project="{{ project.modal-id }}" src="{{site.url}}/{{ image.url }}" alt="{{ image.alt }}"></a>
               </div>
             {% endfor %}
             </div>

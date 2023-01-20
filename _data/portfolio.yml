@@ -100,7 +100,7 @@ projects:
     modal-id: "hodgson"
     description: "RBA created a new country house situated on a mountainside in New Hampshire. This open, energy-efficient house is primariily heated by a wood stove, with a countercurent heat exchanger providing fresh air."
     alt: "Energy-efficient country house in New HAmpshire designed by Ronald Berlin Architect."
-    contractor: "Frost Building Construction  "
+    contractor: "Frost Building Construction"
     contractor-url: ""
     photog: ""
     photo-url: ""
@@ -134,4 +134,67 @@ projects:
       - url: "assets/images/portfolio/hodgson/hodgson_7_icon.jpg"
         full-size-url: "assets/images/portfolio/hodgson/hodgson_7.jpg"
         alt: "bedroom of a country house designed by Ronald Rerlin Architect"
-    
+
+  - title: "Wilson Historic House"
+    modal-id: "carr"
+    description: 'We rehavilitated this house, built when Wilson taught at Princeton, from roof to cellar, including a new mahogany-and-glass solarium and other new but historically compatible features.'
+    alt: 'Energy-efficient country house in New HAmpshire designed by Ronald Berlin Architect.'
+    contractor: "Baxter Construction"
+    contractor-url: "https://www.baxterconstruction.com/"
+    photog: "Taylor Photo"
+    photo-url: "https://taylorphoto.com/"
+    year: "2020"
+    main-img: "assets/images/portfolio/carr/carr_1.jpg"
+    images:
+      - url: "assets/images/portfolio/carr/carr_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_1.jpg"
+        alt: "exterior view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_2.jpg"
+        alt: "back yard view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_3.jpg"
+        alt: "side exterior view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_4.jpg"
+        alt: "solarium of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_5.jpg"
+        alt: "patio of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_6.jpg"
+        alt: "drawing room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_7_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_7.jpg"
+        alt: "view into dining room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_8_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_2.jpg"
+        alt: "main staircase of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_9_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_3.jpg"
+        alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_10_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_4.jpg"
+        alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_11_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_5.jpg"
+        alt: "bathroom and bathtub of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_12_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_6.jpg"
+        alt: "basement/rec room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+
+      - url: "assets/images/portfolio/carr/carr_13_icon.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_7.jpg"
+        alt: "garden and pold of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
+        

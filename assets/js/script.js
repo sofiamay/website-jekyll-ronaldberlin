@@ -133,11 +133,13 @@
 
       /* ########################################### /Gallery ############################################## */
       $(".gallery-img").click(function(e){
-        // var imgSrc = e.currentTarget.attributes["data-largesize"];
         var imgSrc = $(this).data('largesize');
-        console.log(imgSrc);
-        $('#portfolio-main-img').attr("src",imgSrc);
-
+        // $('#portfolio-main-img').attr("src",imgSrc);
+        $('#portfolio-main-img')
+          .fadeOut(250, function() {
+            $('#portfolio-main-img').attr("src", imgSrc);
+          })
+          .fadeIn(250);
       });
   });
 

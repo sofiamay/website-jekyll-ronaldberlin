@@ -282,9 +282,9 @@ portfolio-home-items:
     url: "#"
     modal-id: "battle"
 
-  - image: "assets/images/portfolio/diciccio_icon.jpg"
+  - image: "assets/images/portfolio/bloom_icon.jpg"
     url: "#"
-    modal-id: "diciccio"
+    modal-id: "bloom"
 
   - image: "assets/images/portfolio/marketfair_icon.jpg"
     url: "#"
@@ -355,9 +355,9 @@ portfolio-items:
       - type: "residential"
       - type: "honored"
 
-  - image: "assets/images/portfolio/diciccio_icon.jpg"
+  - image: "assets/images/portfolio/bloom_icon.jpg"
     url: "#"
-    modal-id: "diciccio"
+    modal-id: "bloom"
     portfolio-type:
       - type: "residential"
 

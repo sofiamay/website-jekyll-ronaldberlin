@@ -278,4 +278,40 @@ projects:
       - url: "assets/images/portfolio/battle/battle_4_icon.jpg"
         full-size-url: "assets/images/portfolio/battle/battle_4.jpg"
         alt: "the fireplace of a garden cottage transformed from a garage by Ronald Berlin Architect"
+
+  - title: "Sunny Residence"
+    modal-id: "bloom"
+    description: "RBA created a new kitchen, dining area, and garden room filled with abundant natural light. The new spaces lend a feeling of airy expansiveness to what had become a confining split-level home."
+    alt: "garage turned transformed into garden retreat by Ronald Berlin Architect."
+    contractor: ""
+    contractor-url: ""
+    photog: ""
+    photo-url: ""
+    year: "2020"
+    main-img: "assets/images/portfolio/bloom/bloom_5.jpg"
+    images:
+      - url: "assets/images/portfolio/bloom/bloom_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_1.jpg"
+        alt: "Airy common area and dining room designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/bloom/bloom_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_2.jpg"
+        alt: "Before photo of the confining house transformed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/bloom/bloom_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_3.jpg"
+        alt: "Back exterior view of house trasformed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/bloom/bloom_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+        alt: "Dining area of house trasformed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/bloom/bloom_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+        alt: "View of dining room and common area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/bloom/bloom_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+        alt: "View of kitchen area area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
+
         

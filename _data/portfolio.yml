@@ -243,6 +243,7 @@ projects:
       - url: "assets/images/portfolio/veale/veale_2_icon.jpg"
         full-size-url: "assets/images/portfolio/veale/veale_2.jpg"
         alt: "angled view of a Victorian House in NJ renovated by Ronald Rerlin Architect"
+
       - url: "assets/images/portfolio/veale/veale_3_icon.jpg"
         full-size-url: "assets/images/portfolio/veale/veale_3.jpg"
         alt: "side of the front of a Victorian House in NJ renovated by Ronald Rerlin Architect"
@@ -250,4 +251,31 @@ projects:
       - url: "assets/images/portfolio/veale/veale_4_icon.jpg"
         full-size-url: "assets/images/portfolio/veale/veale_4.jpg"
         alt: "entry way of a Victorian House in NJ renovated by Ronald Rerlin Architect"
+
+  - title: "Rustic Garden Retreat"
+    modal-id: "battle"
+    description: "We transformed a decrepit three-bay garage at the rear of a deep garden into a rustic home-office retreat, with a large Rumford fireplace and steam shower. The design includes giant fir beams and tree-truck columns."
+    alt: "garage turned transformed into garden retreat by Ronald Berlin Architect."
+    contractor: ""
+    contractor-url: ""
+    photog: ""
+    photo-url: ""
+    year: "2020"
+    main-img: "assets/images/portfolio/battle/battle_3.jpg"
+    images:
+      - url: "assets/images/portfolio/battle/battle_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/battle/battle_1.jpg"
+        alt: "exterior front view of a garden retreat transformed from a garage by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/battle/battle_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/battle/battle_2.jpg"
+        alt: "photo of the garage before it was transformed into a cottage by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/battle/battle_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/battle/battle_3.jpg"
+        alt: "garden view of the tranquil cottage transformed from a garage by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/battle/battle_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/battle/battle_4.jpg"
+        alt: "the fireplace of a garden cottage transformed from a garage by Ronald Berlin Architect"
         

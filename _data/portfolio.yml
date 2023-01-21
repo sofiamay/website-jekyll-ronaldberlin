@@ -175,27 +175,27 @@ projects:
         alt: "view into dining room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_8_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_2.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_8.jpg"
         alt: "main staircase of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_9_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_3.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_9.jpg"
         alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_10_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_4.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_10.jpg"
         alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_11_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_5.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_11.jpg"
         alt: "bathroom and bathtub of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_12_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_6.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_12.jpg"
         alt: "basement/rec room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
       - url: "assets/images/portfolio/carr/carr_13_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_7.jpg"
+        full-size-url: "assets/images/portfolio/carr/carr_13.jpg"
         alt: "garden and pold of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
   - title: "NYC Apartment"
@@ -307,11 +307,11 @@ projects:
         alt: "Dining area of house trasformed by Ronald Berlin Architect"
 
       - url: "assets/images/portfolio/bloom/bloom_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_5.jpg"
         alt: "View of dining room and common area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
 
       - url: "assets/images/portfolio/bloom/bloom_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+        full-size-url: "assets/images/portfolio/bloom/bloom_6.jpg"
         alt: "View of kitchen area area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
 
   - title: "Marketfair Food Court"
@@ -342,55 +342,63 @@ projects:
         alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_5.jpg"
         alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_6.jpg"
         alt: "Seating area with airy skylight of food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_7_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_7.jpg"
         alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_8_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_8.jpg"
         alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_9_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_9.jpg"
         alt: "Expansive View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
       - url: "assets/images/portfolio/marketfair/marketfair_10_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_10.jpg"
         alt: "View of restaurant and seating area in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-  - title: "Combining Apartments"
-    modal-id: "west"
-    description: "Having purchased the neighboring apartment, the owner direct RBA to reconfigure and unify the enlarged area of her home. A central entry hall adds richnes and variety to the sequence of spaces that extend across the entire breadth of the building."
-    alt: "2 apartments combined into one by Ronald Berlin Architect."
-    contractor: "Garretson Custom Builders"
-    contractor-url: "https://www.garretsonbuilder.com/"
-    photog: "Taylor Photo"
-    photo-url: "https://taylorphoto.com/"
+  - title: "Writers' Block Pyramid"
+    modal-id: "writersblock"
+    description: "RBA contributed this fantasy to a temporary festival of architecture in Princeton, NJ in which 10 architects designed pavilions based on the work of 10 Princeton writers. Paul Krugman served as our 'partner.'"
+    alt: "Creative pyramid pavilion inspired by Paul Krugman for a festival celebrating writers. Designed by Ronald Berlin Architect."
+    contractor: "Pinneo Construction"
+    contractor-url: "https://pinneoconstruction.com/"
+    photog: "Marek Bulaj"
+    photo-url: "http://marekbulajphotography.com/"
     year: "2020"
-    main-img: "assets/images/portfolio/west/west_4.jpg"
+    main-img: "assets/images/portfolio/writersblock/writersblock_1.jpg"
     images:
-      - url: "assets/images/portfolio/west/west_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_1.jpg"
-        alt: "Photo of large entry hall designed by Ronald Berlin Architect"
+      - url: "assets/images/portfolio/writersblock/writersblock_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_1.jpg"
+        alt: "Photo of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/west/west_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_2.jpg"
-        alt: "Photo of large entry hall and living room designed by Ronald Berlin Architect"
+      - url: "assets/images/portfolio/writersblock/writersblock_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_2.jpg"
+        alt: "Interior view of a pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/west/west_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_3.jpg"
-        alt: "Photo of kitchen designed by Ronald Berlin Architect"
+      - url: "assets/images/portfolio/writersblock/writersblock_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_3.jpg"
+        alt: "Ceiling view of a pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/west/west_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_4.jpg"
-        alt: "Photo of office designed by Ronald Berlin Architect"
+      - url: "assets/images/portfolio/writersblock/writersblock_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_4.jpg"
+        alt: "The glass of of the pyramid designed by Ronald Berlin Architect for festival celebrating writers"
+
+      - url: "assets/images/portfolio/writersblock/writersblock_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_5.jpg"
+        alt: "Photo of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
+
+      - url: "assets/images/portfolio/writersblock/writersblock_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/writersblock/writersblock_6.jpg"
+        alt: "Close up view of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
 
 

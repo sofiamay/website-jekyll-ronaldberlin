@@ -1,5 +1,14 @@
+<!-- Parameters: max-items -->
+
 <!-- Modals -->
 {% for project in site.data.portfolio.projects %}
+{% assign max_items = forloop.length %}
+{% if include.max-items %}
+{% assign max_items = include.max-items%}
+{% endif %}
+
+{% if max_items <= forloop.index %}
+
 <div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" data-project="{{ project.modal-id }}" tabindex="-1" role="dialog"
   aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -90,8 +99,9 @@
         </div>
       </div>
     </div>
-    </div>
   </div>
 </div>
+
+{% endif %}
 {% endfor %}
 <!-- /Modals/ -->

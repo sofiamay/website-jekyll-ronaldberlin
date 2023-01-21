@@ -15,7 +15,7 @@
             <img src="{{ site.baseurl }}/{{ item.icon }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
             <div class="hover-overlay">
               <div class="hover-content">
-                <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+                <a class="btn btn-light btn-sm" data-toggle="modal" data-target="#portfolioModal-{{ item.modal-id }}">view project</a>
               </div>
             </div>
           </div>
@@ -27,3 +27,5 @@
 </section>
 <!-- /portfolio -->
 {% endif %}
+
+{% include portfolio-modal.html %}

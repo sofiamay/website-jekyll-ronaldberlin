@@ -1,3 +1,5 @@
+portfolio-img-directory: "assets/images/portfolio/"
+
 projects:
   - title: "1970s House"
     modal-id: "davis"
@@ -13,28 +15,28 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/davis/davis_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_1.jpg"
+      - url: "davis_1_icon.jpg"
+        full-size-url: "davis_1.jpg"
         alt: "columns on entry way of house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_2.jpg"
+      - url: "davis_2_icon.jpg"
+        full-size-url: "davis_2.jpg"
         alt: "angled view of entry way with columns of house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_3.jpg"
+      - url: "davis_3_icon.jpg"
+        full-size-url: "davis_3.jpg"
         alt: "full exterior view of green house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_4.jpg"
+      - url: "davis_4_icon.jpg"
+        full-size-url: "davis_4.jpg"
         alt: "view of outdoor patio designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_5.jpg"
+      - url: "davis_5_icon.jpg"
+        full-size-url: "davis_5.jpg"
         alt: "Front exterior view designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/davis/davis_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/davis/davis_6.jpg"
+      - url: "davis_6_icon.jpg"
+        full-size-url: "davis_6.jpg"
         alt: "house before renovations by Ronald Berlin Architect designed by Ronald Berlin Architect"
 
   - title: "Poland Pavilion"
@@ -51,16 +53,16 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/poland/poland_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/poland/poland_1.jpg"
+      - url: "poland_1_icon.jpg"
+        full-size-url: "poland_1.jpg"
         alt: "landscape view of pavilion in Poland designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/poland/poland_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/poland/poland_2.jpg"
+      - url: "poland_2_icon.jpg"
+        full-size-url: "poland_2.jpg"
         alt: "Plan for pavilion designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/poland/poland_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/poland/poland_3.jpg"
+      - url: "poland_3_icon.jpg"
+        full-size-url: "poland_3.jpg"
         alt: "landscape view of pavilion in Poland designed by Ronald Berlin Architect"
 
   - title: "Ranch House"
@@ -77,32 +79,32 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/wasserman/wasserman_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_1.jpg"
+      - url: "wasserman_1_icon.jpg"
+        full-size-url: "wasserman_1.jpg"
         alt: "front porch of house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_2.jpg"
+      - url: "wasserman_2_icon.jpg"
+        full-size-url: "wasserman_2.jpg"
         alt: "photo of house before it was renovated by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_3.jpg"
+      - url: "wasserman_3_icon.jpg"
+        full-size-url: "wasserman_3.jpg"
         alt: "front, angled view of house renovated by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_4.jpg"
+      - url: "wasserman_4_icon.jpg"
+        full-size-url: "wasserman_4.jpg"
         alt: "photo of house before it was renovated by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_5.jpg"
+      - url: "wasserman_5_icon.jpg"
+        full-size-url: "wasserman_5.jpg"
         alt: "night time photo of house exterior renovated by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_6.jpg"
+      - url: "wasserman_6_icon.jpg"
+        full-size-url: "wasserman_6.jpg"
         alt: "photo of roof of house renovated by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/wasserman/wasserman_7_icon.jpg"
-        full-size-url: "assets/images/portfolio/wasserman/wasserman_7.jpg"
+      - url: "wasserman_7_icon.jpg"
+        full-size-url: "wasserman_7.jpg"
         alt: "photo of fireplace mantle designed by Ronald Berlin Architect renovated by Ronald Berlin Architect"
 
   - title: "Country House"
@@ -119,32 +121,32 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/hodgson/hodgson_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_1.jpg"
+      - url: "hodgson_1_icon.jpg"
+        full-size-url: "hodgson_1.jpg"
         alt: "exterior view of country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_2.jpg"
+      - url: "hodgson_2_icon.jpg"
+        full-size-url: "hodgson_2.jpg"
         alt: "angled view of exterior view of country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_3.jpg"
+      - url: "hodgson_3_icon.jpg"
+        full-size-url: "hodgson_3.jpg"
         alt: "interior view of country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_4.jpg"
+      - url: "hodgson_4_icon.jpg"
+        full-size-url: "hodgson_4.jpg"
         alt: "interior view of stair well of country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_5.jpg"
+      - url: "hodgson_5_icon.jpg"
+        full-size-url: "hodgson_5.jpg"
         alt: "top of the staircase looking down in a country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_6.jpg"
+      - url: "hodgson_6_icon.jpg"
+        full-size-url: "hodgson_6.jpg"
         alt: "bedroom of a country house designed by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/hodgson/hodgson_7_icon.jpg"
-        full-size-url: "assets/images/portfolio/hodgson/hodgson_7.jpg"
+      - url: "hodgson_7_icon.jpg"
+        full-size-url: "hodgson_7.jpg"
         alt: "bedroom of a country house designed by Ronald Rerlin Architect"
 
   - title: "Wilson Historic House"
@@ -161,56 +163,56 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/carr/carr_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_1.jpg"
+      - url: "carr_1_icon.jpg"
+        full-size-url: "carr_1.jpg"
         alt: "exterior view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_2.jpg"
+      - url: "carr_2_icon.jpg"
+        full-size-url: "carr_2.jpg"
         alt: "back yard view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_3.jpg"
+      - url: "carr_3_icon.jpg"
+        full-size-url: "carr_3.jpg"
         alt: "side exterior view of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_4.jpg"
+      - url: "carr_4_icon.jpg"
+        full-size-url: "carr_4.jpg"
         alt: "solarium of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_5.jpg"
+      - url: "carr_5_icon.jpg"
+        full-size-url: "carr_5.jpg"
         alt: "patio of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_6.jpg"
+      - url: "carr_6_icon.jpg"
+        full-size-url: "carr_6.jpg"
         alt: "drawing room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_7_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_7.jpg"
+      - url: "carr_7_icon.jpg"
+        full-size-url: "carr_7.jpg"
         alt: "view into dining room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_8_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_8.jpg"
+      - url: "carr_8_icon.jpg"
+        full-size-url: "carr_8.jpg"
         alt: "main staircase of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_9_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_9.jpg"
+      - url: "carr_9_icon.jpg"
+        full-size-url: "carr_9.jpg"
         alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_10_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_10.jpg"
+      - url: "carr_10_icon.jpg"
+        full-size-url: "carr_10.jpg"
         alt: "bathroom of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_11_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_11.jpg"
+      - url: "carr_11_icon.jpg"
+        full-size-url: "carr_11.jpg"
         alt: "bathroom and bathtub of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_12_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_12.jpg"
+      - url: "carr_12_icon.jpg"
+        full-size-url: "carr_12.jpg"
         alt: "basement/rec room of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/carr/carr_13_icon.jpg"
-        full-size-url: "assets/images/portfolio/carr/carr_13.jpg"
+      - url: "carr_13_icon.jpg"
+        full-size-url: "carr_13.jpg"
         alt: "garden and pold of historic Woodrow Willson house renovated by Ronald Rerlin Architect"
 
   - title: "NYC Apartment"
@@ -227,20 +229,20 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/scott/scott_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/scott/scott_1.jpg"
+      - url: "scott_1_icon.jpg"
+        full-size-url: "scott_1.jpg"
         alt: "view of kitchen and dining room of a New York apartment renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/scott/scott_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/scott/scott_2.jpg"
+      - url: "scott_2_icon.jpg"
+        full-size-url: "scott_2.jpg"
         alt: "wide angle view of dining room of a New York apartment renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/scott/scott_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/scott/scott_3.jpg"
+      - url: "scott_3_icon.jpg"
+        full-size-url: "scott_3.jpg"
         alt: "view of kitchen of a New York apartment renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/scott/scott_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/scott/scott_4.jpg"
+      - url: "scott_4_icon.jpg"
+        full-size-url: "scott_4.jpg"
         alt: "view of livinig oom of a New York apartment renovated by Ronald Rerlin Architect"
 
   - title: "Victorian Home"
@@ -257,20 +259,20 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/veale/veale_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/veale/veale_1.jpg"
+      - url: "veale_1_icon.jpg"
+        full-size-url: "veale_1.jpg"
         alt: "exterior view of a Victorian House in NJ renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/veale/veale_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/veale/veale_2.jpg"
+      - url: "veale_2_icon.jpg"
+        full-size-url: "veale_2.jpg"
         alt: "angled view of a Victorian House in NJ renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/veale/veale_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/veale/veale_3.jpg"
+      - url: "veale_3_icon.jpg"
+        full-size-url: "veale_3.jpg"
         alt: "side of the front of a Victorian House in NJ renovated by Ronald Rerlin Architect"
 
-      - url: "assets/images/portfolio/veale/veale_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/veale/veale_4.jpg"
+      - url: "veale_4_icon.jpg"
+        full-size-url: "veale_4.jpg"
         alt: "entry way of a Victorian House in NJ renovated by Ronald Rerlin Architect"
 
   - title: "Rustic Garden Retreat"
@@ -288,20 +290,20 @@ projects:
       - type: "residential"
       - type: "honored"
     images:
-      - url: "assets/images/portfolio/battle/battle_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/battle/battle_1.jpg"
+      - url: "battle_1_icon.jpg"
+        full-size-url: "battle_1.jpg"
         alt: "exterior front view of a garden retreat transformed from a garage by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/battle/battle_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/battle/battle_2.jpg"
+      - url: "battle_2_icon.jpg"
+        full-size-url: "battle_2.jpg"
         alt: "photo of the garage before it was transformed into a cottage by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/battle/battle_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/battle/battle_3.jpg"
+      - url: "battle_3_icon.jpg"
+        full-size-url: "battle_3.jpg"
         alt: "garden view of the tranquil cottage transformed from a garage by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/battle/battle_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/battle/battle_4.jpg"
+      - url: "battle_4_icon.jpg"
+        full-size-url: "battle_4.jpg"
         alt: "the fireplace of a garden cottage transformed from a garage by Ronald Berlin Architect"
 
   - title: "Sunny Residence"
@@ -318,28 +320,28 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/bloom/bloom_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_1.jpg"
+      - url: "bloom_1_icon.jpg"
+        full-size-url: "bloom_1.jpg"
         alt: "Airy common area and dining room designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/bloom/bloom_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_2.jpg"
+      - url: "bloom_2_icon.jpg"
+        full-size-url: "bloom_2.jpg"
         alt: "Before photo of the confining house transformed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/bloom/bloom_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_3.jpg"
+      - url: "bloom_3_icon.jpg"
+        full-size-url: "bloom_3.jpg"
         alt: "Back exterior view of house trasformed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/bloom/bloom_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
+      - url: "bloom_4_icon.jpg"
+        full-size-url: "bloom_4.jpg"
         alt: "Dining area of house trasformed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/bloom/bloom_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_5.jpg"
+      - url: "bloom_5_icon.jpg"
+        full-size-url: "bloom_5.jpg"
         alt: "View of dining room and common area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/bloom/bloom_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/bloom/bloom_6.jpg"
+      - url: "bloom_6_icon.jpg"
+        full-size-url: "bloom_6.jpg"
         alt: "View of kitchen area area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
 
   - title: "Marketfair Food Court"
@@ -357,44 +359,44 @@ projects:
       - type: "commercial"
       - type: "honored"
     images:
-      - url: "assets/images/portfolio/marketfair/marketfair_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_1.jpg"
+      - url: "marketfair_1_icon.jpg"
+        full-size-url: "marketfair_1.jpg"
         alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_2.jpg"
+      - url: "marketfair_2_icon.jpg"
+        full-size-url: "marketfair_2.jpg"
         alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_3.jpg"
+      - url: "marketfair_3_icon.jpg"
+        full-size-url: "marketfair_3.jpg"
         alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+      - url: "marketfair_4_icon.jpg"
+        full-size-url: "marketfair_4.jpg"
         alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_5.jpg"
+      - url: "marketfair_5_icon.jpg"
+        full-size-url: "marketfair_5.jpg"
         alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_6.jpg"
+      - url: "marketfair_6_icon.jpg"
+        full-size-url: "marketfair_6.jpg"
         alt: "Seating area with airy skylight of food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_7_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_7.jpg"
+      - url: "marketfair_7_icon.jpg"
+        full-size-url: "marketfair_7.jpg"
         alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_8_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_8.jpg"
+      - url: "marketfair_8_icon.jpg"
+        full-size-url: "marketfair_8.jpg"
         alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_9_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_9.jpg"
+      - url: "marketfair_9_icon.jpg"
+        full-size-url: "marketfair_9.jpg"
         alt: "Expansive View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
-      - url: "assets/images/portfolio/marketfair/marketfair_10_icon.jpg"
-        full-size-url: "assets/images/portfolio/marketfair/marketfair_10.jpg"
+      - url: "marketfair_10_icon.jpg"
+        full-size-url: "marketfair_10.jpg"
         alt: "View of restaurant and seating area in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
   - title: "Combined Apartments"
@@ -411,20 +413,20 @@ projects:
     portfolio-type:
       - type: "residential"
     images:
-      - url: "assets/images/portfolio/west/west_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_1.jpg"
+      - url: "west_1_icon.jpg"
+        full-size-url: "west_1.jpg"
         alt: "Enlarged entry hall of house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/west/west_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_2.jpg"
+      - url: "west_2_icon.jpg"
+        full-size-url: "west_2.jpg"
         alt: "Enlarged entry hall and dining area of house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/west/west_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_3.jpg"
+      - url: "west_3_icon.jpg"
+        full-size-url: "west_3.jpg"
         alt: "kitchen of house designed by Ronald Berlin Architect"
 
-      - url: "assets/images/portfolio/west/west_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/west/west_4.jpg"
+      - url: "west_4_icon.jpg"
+        full-size-url: "west_4.jpg"
         alt: "Office of house designed by Ronald Berlin Architect"
 
   - title: "Writers' Block Pyramid"
@@ -442,28 +444,28 @@ projects:
       - type: "commercial"
       - type: "honored"
     images:
-      - url: "assets/images/portfolio/writersblock/writersblock_1_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_1.jpg"
+      - url: "writersblock_1_icon.jpg"
+        full-size-url: "writersblock_1.jpg"
         alt: "Photo of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/writersblock/writersblock_2_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_2.jpg"
+      - url: "writersblock_2_icon.jpg"
+        full-size-url: "writersblock_2.jpg"
         alt: "Interior view of a pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/writersblock/writersblock_3_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_3.jpg"
+      - url: "writersblock_3_icon.jpg"
+        full-size-url: "writersblock_3.jpg"
         alt: "Ceiling view of a pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/writersblock/writersblock_4_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_4.jpg"
+      - url: "writersblock_4_icon.jpg"
+        full-size-url: "writersblock_4.jpg"
         alt: "The glass of of the pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/writersblock/writersblock_5_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_5.jpg"
+      - url: "writersblock_5_icon.jpg"
+        full-size-url: "writersblock_5.jpg"
         alt: "Photo of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
-      - url: "assets/images/portfolio/writersblock/writersblock_6_icon.jpg"
-        full-size-url: "assets/images/portfolio/writersblock/writersblock_6.jpg"
+      - url: "writersblock_6_icon.jpg"
+        full-size-url: "writersblock_6.jpg"
         alt: "Close up view of pyramid designed by Ronald Berlin Architect for festival celebrating writers"
 
 

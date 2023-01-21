@@ -4,7 +4,7 @@
   {% assign max_length = include.max-items %}
 {% endif %}
 
-{% assign base_img_url = "assets/images/portfolio/" %}
+{% assign base_img_url = site.data.portfolio.portfolio-img-directory %}
 
 {% for project in site.data.portfolio.projects %}
 
@@ -45,7 +45,7 @@
             {% for image in project.images %}
             <!-- slider-item -->
               <div class="text-center portfolio-content">
-                <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ image.full-size-url }}" data-project="{{ project.modal-id }}" src="{{site.url}}/{{ image.url }}" alt="{{ image.alt }}"></a>
+                <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ project_img_url | append: image.full-size-url }}" data-project="{{ project.modal-id }}" src="{{ project_img_url | append: image.url }}" alt="{{ image.alt }}"></a>
               </div>
             {% endfor %}
             </div>

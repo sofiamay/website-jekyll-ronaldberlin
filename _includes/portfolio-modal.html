@@ -1,9 +1,10 @@
 <!-- Modals -->
-{% for project in site.data.portfolio.projects %}
-{% assign max_length = forloop.length %}
-{% if include.max-items and infclude.max-items != nil %}
+{% assign max_length = site.data.portfolio.projects.size %}
+{% if include.max-items and include.max-items != nil %}
   {% assign max_length = include.max-items %}
 {% endif %}
+
+{% for project in site.data.portfolio.projects %}
 {% if forloop.index > max_length %}
   {% break %}
 {% endif %}

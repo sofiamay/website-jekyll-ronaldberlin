@@ -9,7 +9,8 @@
     </div>
     <div class="row shuffle-wrapper">
       {% for item in site.data.portfolio.projects %}
-        {% if forloop.index <= site.data.settings.portfolio-home-items-length %}
+        {% assign max_length = site.data.settings.portfolio-home-items-length  %}
+        {% if forloop.index <= max_length %}
         <div class="col-lg-4 col-6 mb-4 shuffle-item">
           <div class="position-relative rounded hover-wrapper">
             <img src="{{ site.baseurl }}/{{ item.icon }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
@@ -28,4 +29,4 @@
 <!-- /portfolio -->
 {% endif %}
 
-{% include portfolio-modal.html %}
+{% include portfolio-modal.html max-items=max_length %}

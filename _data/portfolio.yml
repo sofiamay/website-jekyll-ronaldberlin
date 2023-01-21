@@ -365,4 +365,33 @@ projects:
         full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
         alt: "View of restaurant and seating area in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
+  - title: "Combining Apartments"
+    modal-id: "west"
+    description: "Having purchased the neighboring apartment, the owner direct RBA to reconfigure and unify the enlarged area of her home. A central entry hall adds richnes and variety to the sequence of spaces that extend across the entire breadth of the building."
+    alt: "2 apartments combined into one by Ronald Berlin Architect."
+    contractor: "Garretson Custom Builders"
+    contractor-url: "https://www.garretsonbuilder.com/"
+    photog: "Taylor Photo"
+    photo-url: "https://taylorphoto.com/"
+    year: "2020"
+    main-img: "assets/images/portfolio/west/west_4.jpg"
+    images:
+      - url: "assets/images/portfolio/west/west_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_1.jpg"
+        alt: "Photo of large entry hall designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_2.jpg"
+        alt: "Photo of large entry hall and living room designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_3.jpg"
+        alt: "Photo of kitchen designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_4.jpg"
+        alt: "Photo of office designed by Ronald Berlin Architect"
+
+
+
         

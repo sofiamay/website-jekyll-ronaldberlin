@@ -62,15 +62,21 @@
           <div class="row">
             <div class="col-lg-12">
                 <ul class="list-inline item-details d-flex justify-content-center">
-                    <li class="">Contractor:
-                      <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
-                    </li>
-                    <li class="">Photo:
-                      <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
-                    </li>
-                    <li class="">Date:
-                      <strong class="link-color">{{ project.year }}</strong>
-                    </li>
+                    {% if project.contractor %}
+                      <li class="">Contractor:
+                        <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
+                      </li>
+                    {% endif %}
+                    {% if project.photog %}
+                      <li class="">Photo:
+                        <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
+                      </li>
+                    {% endif %}
+                    {% if project.year %}
+                      <li class="">Date:
+                        <strong class="link-color">{{ project.year }}</strong>
+                      </li>
+                    {% endif %}
                   </ul>
             </div>
           </div>

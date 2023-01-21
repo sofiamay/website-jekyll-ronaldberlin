@@ -314,4 +314,55 @@ projects:
         full-size-url: "assets/images/portfolio/bloom/bloom_4.jpg"
         alt: "View of kitchen area area hilighting the windows and open space of a house trasformed by Ronald Berlin Architect"
 
+  - title: "Marketfair Food Court"
+    modal-id: "marketfair"
+    description: "We designed 6 restaurants, each with its own individual character, and picturesquely arranged them around a large new pyramidal skylight. A join venture with Max Hayden, Architect."
+    alt: "Mall food court with unique restaurants and skylight designed by Ronald Berlin Architect and Max Hayden Architect."
+    contractor: "E. Allan Reeves"
+    contractor-url: "http://www.eareeves.com/"
+    photog: "Taylor Photo"
+    photo-url: "https://taylorphoto.com/"
+    year: "2020"
+    main-img: "assets/images/portfolio/marketfair/marketfair_6.jpg"
+    images:
+      - url: "assets/images/portfolio/marketfair/marketfair_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_1.jpg"
+        alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_2.jpg"
+        alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_3.jpg"
+        alt: "Restaurant in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_5_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "View of 2 restaurnts in a mall food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_6_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "Seating area with airy skylight of food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_7_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_8_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_9_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "Expansive View of seating area and 2 restaurants in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
+      - url: "assets/images/portfolio/marketfair/marketfair_10_icon.jpg"
+        full-size-url: "assets/images/portfolio/marketfair/marketfair_4.jpg"
+        alt: "View of restaurant and seating area in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
+
         

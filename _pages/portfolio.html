@@ -20,10 +20,10 @@ title: Portfolio
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-items %}
+      {% for item in site.data.portfolio.projects %}
       <div class="col-lg-4 col-6 mb-4 shuffle-item" data-groups="[{% for portfolio in item.portfolio-type %}{% if forloop.first == true %}{% else %},{% endif %}&quot;{{ portfolio.type }}&quot;{% endfor %}]">
         <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+          <img src="{{ site.baseurl }}/{{ item.icon }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
           <div class="hover-overlay">
             <div class="hover-content">
               <a class="btn btn-light btn-sm portfolio-link" data-toggle="modal" data-target="#portfolioModal-{{ item.modal-id }}">view project</a>

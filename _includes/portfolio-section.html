@@ -1,4 +1,4 @@
-{% if site.data.settings.portfolio-home-items %}
+{% if site.data.portfolio.projects %}
 <!-- portfolio -->
 <section class="section bg-primary">
   <div class="container">
@@ -8,17 +8,19 @@
       </div>
     </div>
     <div class="row shuffle-wrapper">
-      {% for item in site.data.settings.portfolio-home-items %}
-      <div class="col-lg-4 col-6 mb-4 shuffle-item">
-        <div class="position-relative rounded hover-wrapper">
-          <img src="{{ site.baseurl }}/{{ item.image }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
-          <div class="hover-overlay">
-            <div class="hover-content">
-              <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+      {% for item in site.data.portfolio.projects %}
+        {% if forloop.index <= site.data.settings.portfolio-home-items-length %}
+        <div class="col-lg-4 col-6 mb-4 shuffle-item">
+          <div class="position-relative rounded hover-wrapper">
+            <img src="{{ site.baseurl }}/{{ item.icon }}" alt="portfolio-image" class="img-fluid rounded w-100 d-block">
+            <div class="hover-overlay">
+              <div class="hover-content">
+                <a class="btn btn-light btn-sm" href="{{ item.url }}">view project</a>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>

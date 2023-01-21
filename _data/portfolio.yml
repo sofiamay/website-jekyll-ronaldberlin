@@ -8,7 +8,10 @@ projects:
     photog: "Riccardo Barros"
     photo-url: "https://ricardobarros.com/"
     year: "2020"
+    icon: "assets/images/portfolio/davis_icon.jpg"
     main-img: "assets/images/portfolio/davis/davis_5.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/davis/davis_1_icon.jpg"
         full-size-url: "assets/images/portfolio/davis/davis_1.jpg"
@@ -43,7 +46,10 @@ projects:
     photog: ""
     photo-url: ""
     year: "2020"
+    icon: "assets/images/portfolio/poland_icon.jpg"
     main-img: "assets/images/portfolio/poland/poland_3.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/poland/poland_1_icon.jpg"
         full-size-url: "assets/images/portfolio/poland/poland_1.jpg"
@@ -66,7 +72,10 @@ projects:
     photog: "Kevin Birch"
     photo-url: "https://www.tkbirchphoto.com/"
     year: "2020"
+    icon: "assets/images/portfolio/wasserman_icon.jpg"
     main-img: "assets/images/portfolio/wasserman/wasserman_3.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/wasserman/wasserman_1_icon.jpg"
         full-size-url: "assets/images/portfolio/wasserman/wasserman_1.jpg"
@@ -105,7 +114,10 @@ projects:
     photog: ""
     photo-url: ""
     year: "2020"
+    icon: "assets/images/portfolio/hodgson_icon.jpg"
     main-img: "assets/images/portfolio/hodgson/hodgson_5.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/hodgson/hodgson_1_icon.jpg"
         full-size-url: "assets/images/portfolio/hodgson/hodgson_1.jpg"
@@ -144,7 +156,10 @@ projects:
     photog: "Taylor Photo"
     photo-url: "https://taylorphoto.com/"
     year: "2020"
+    icon: "assets/images/portfolio/carr_icon.jpg"
     main-img: "assets/images/portfolio/carr/carr_1.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/carr/carr_1_icon.jpg"
         full-size-url: "assets/images/portfolio/carr/carr_1.jpg"
@@ -207,7 +222,10 @@ projects:
     photog: "Peter Weigley"
     photo-url: "https://www.buzzfile.com/business/Pete-Weigley-Photo-732-232-9952"
     year: "2020"
+    icon: "assets/images/portfolio/scott_icon.jpg"
     main-img: "assets/images/portfolio/scott/scott_2.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/scott/scott_1_icon.jpg"
         full-size-url: "assets/images/portfolio/scott/scott_1.jpg"
@@ -234,7 +252,10 @@ projects:
     photog: ""
     photo-url: ""
     year: "2020"
+    icon: "assets/images/portfolio/veale_icon.jpg"
     main-img: "assets/images/portfolio/veale/veale_1.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/veale/veale_1_icon.jpg"
         full-size-url: "assets/images/portfolio/veale/veale_1.jpg"
@@ -261,7 +282,11 @@ projects:
     photog: ""
     photo-url: ""
     year: "2020"
+    icon: "assets/images/portfolio/battle_icon.jpg"
     main-img: "assets/images/portfolio/battle/battle_3.jpg"
+    portfolio-type:
+      - type: "residential"
+      - type: "honored"
     images:
       - url: "assets/images/portfolio/battle/battle_1_icon.jpg"
         full-size-url: "assets/images/portfolio/battle/battle_1.jpg"
@@ -288,7 +313,10 @@ projects:
     photog: "Kevin Birch"
     photo-url: "https://www.tkbirchphoto.com/"
     year: "2020"
+    icon: "assets/images/portfolio/bloom_icon.jpg"
     main-img: "assets/images/portfolio/bloom/bloom_5.jpg"
+    portfolio-type:
+      - type: "residential"
     images:
       - url: "assets/images/portfolio/bloom/bloom_1_icon.jpg"
         full-size-url: "assets/images/portfolio/bloom/bloom_1.jpg"
@@ -323,7 +351,11 @@ projects:
     photog: "Taylor Photo"
     photo-url: "https://taylorphoto.com/"
     year: "2020"
+    icon: "assets/images/portfolio/marketfair_icon.jpg"
     main-img: "assets/images/portfolio/marketfair/marketfair_6.jpg"
+    portfolio-type:
+      - type: "commercial"
+      - type: "honored"
     images:
       - url: "assets/images/portfolio/marketfair/marketfair_1_icon.jpg"
         full-size-url: "assets/images/portfolio/marketfair/marketfair_1.jpg"
@@ -365,6 +397,36 @@ projects:
         full-size-url: "assets/images/portfolio/marketfair/marketfair_10.jpg"
         alt: "View of restaurant and seating area in a food court designed by Ronald Berlin Architect and Max Hayden Architect"
 
+  - title: "Combined Apartments"
+    modal-id: "west"
+    description: "Having purchased  the neighboring apartment, the owner directed RBA to reconfigure an unify the enlargened area of her home. A central entry hall adds richness and variety to the sequence of spaces that extend across the entire breadth of the ceiling."
+    alt: "2 apartments combained into 1 by Ronald Berlin Architect."
+    contractor: "Garretson Custom Builders"
+    contractor-url: "https://www.garretsonbuilder.com/"
+    photog: "Taylor Photo"
+    photo-url: "https://taylorphoto.com/"
+    year: "2020"
+    icon: "assets/images/portfolio/west_icon.jpg"
+    main-img: "assets/images/portfolio/west/west_4.jpg"
+    portfolio-type:
+      - type: "residential"
+    images:
+      - url: "assets/images/portfolio/west/west_1_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_1.jpg"
+        alt: "Enlarged entry hall of house designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_2_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_2.jpg"
+        alt: "Enlarged entry hall and dining area of house designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_3_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_3.jpg"
+        alt: "kitchen of house designed by Ronald Berlin Architect"
+
+      - url: "assets/images/portfolio/west/west_4_icon.jpg"
+        full-size-url: "assets/images/portfolio/west/west_4.jpg"
+        alt: "Office of house designed by Ronald Berlin Architect"
+
   - title: "Writers' Block Pyramid"
     modal-id: "writersblock"
     description: "RBA contributed this fantasy to a temporary festival of architecture in Princeton, NJ in which 10 architects designed pavilions based on the work of 10 Princeton writers. Paul Krugman served as our 'partner.'"
@@ -374,7 +436,11 @@ projects:
     photog: "Marek Bulaj"
     photo-url: "http://marekbulajphotography.com/"
     year: "2020"
+    icon: "assets/images/portfolio/writersblock_icon.jpg"
     main-img: "assets/images/portfolio/writersblock/writersblock_1.jpg"
+    portfolio-type:
+      - type: "commercial"
+      - type: "honored"
     images:
       - url: "assets/images/portfolio/writersblock/writersblock_1_icon.jpg"
         full-size-url: "assets/images/portfolio/writersblock/writersblock_1.jpg"

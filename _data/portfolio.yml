@@ -9,7 +9,7 @@ projects:
     photo-url: "https://ricardobarros.com/"
     year: "2020"
     icon: "assets/images/portfolio/davis_icon.jpg"
-    main-img: "assets/images/portfolio/davis/davis_5.jpg"
+    main-img: "davis_5.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -47,7 +47,7 @@ projects:
     photo-url: ""
     year: "2020"
     icon: "assets/images/portfolio/poland_icon.jpg"
-    main-img: "assets/images/portfolio/poland/poland_3.jpg"
+    main-img: "poland_3.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -73,7 +73,7 @@ projects:
     photo-url: "https://www.tkbirchphoto.com/"
     year: "2020"
     icon: "assets/images/portfolio/wasserman_icon.jpg"
-    main-img: "assets/images/portfolio/wasserman/wasserman_3.jpg"
+    main-img: "wasserman_3.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -115,7 +115,7 @@ projects:
     photo-url: ""
     year: "2020"
     icon: "assets/images/portfolio/hodgson_icon.jpg"
-    main-img: "assets/images/portfolio/hodgson/hodgson_5.jpg"
+    main-img: "hodgson_5.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -157,7 +157,7 @@ projects:
     photo-url: "https://taylorphoto.com/"
     year: "2020"
     icon: "assets/images/portfolio/carr_icon.jpg"
-    main-img: "assets/images/portfolio/carr/carr_1.jpg"
+    main-img: "carr_1.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -223,7 +223,7 @@ projects:
     photo-url: "https://www.buzzfile.com/business/Pete-Weigley-Photo-732-232-9952"
     year: "2020"
     icon: "assets/images/portfolio/scott_icon.jpg"
-    main-img: "assets/images/portfolio/scott/scott_2.jpg"
+    main-img: "scott_2.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -253,7 +253,7 @@ projects:
     photo-url: ""
     year: "2020"
     icon: "assets/images/portfolio/veale_icon.jpg"
-    main-img: "assets/images/portfolio/veale/veale_1.jpg"
+    main-img: "veale_1.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -283,7 +283,7 @@ projects:
     photo-url: ""
     year: "2020"
     icon: "assets/images/portfolio/battle_icon.jpg"
-    main-img: "assets/images/portfolio/battle/battle_3.jpg"
+    main-img: "battle_3.jpg"
     portfolio-type:
       - type: "residential"
       - type: "honored"
@@ -314,7 +314,7 @@ projects:
     photo-url: "https://www.tkbirchphoto.com/"
     year: "2020"
     icon: "assets/images/portfolio/bloom_icon.jpg"
-    main-img: "assets/images/portfolio/bloom/bloom_5.jpg"
+    main-img: "bloom_5.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -352,7 +352,7 @@ projects:
     photo-url: "https://taylorphoto.com/"
     year: "2020"
     icon: "assets/images/portfolio/marketfair_icon.jpg"
-    main-img: "assets/images/portfolio/marketfair/marketfair_6.jpg"
+    main-img: "marketfair_6.jpg"
     portfolio-type:
       - type: "commercial"
       - type: "honored"
@@ -407,7 +407,7 @@ projects:
     photo-url: "https://taylorphoto.com/"
     year: "2020"
     icon: "assets/images/portfolio/west_icon.jpg"
-    main-img: "assets/images/portfolio/west/west_4.jpg"
+    main-img: "west_4.jpg"
     portfolio-type:
       - type: "residential"
     images:
@@ -437,7 +437,7 @@ projects:
     photo-url: "http://marekbulajphotography.com/"
     year: "2020"
     icon: "assets/images/portfolio/writersblock_icon.jpg"
-    main-img: "assets/images/portfolio/writersblock/writersblock_1.jpg"
+    main-img: "writersblock_1.jpg"
     portfolio-type:
       - type: "commercial"
       - type: "honored"

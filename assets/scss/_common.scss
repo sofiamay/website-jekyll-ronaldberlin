@@ -119,11 +119,17 @@ hr {
 
 hr.section-title {
   margin: 25px auto 80px;
-  max-width: 250px;
+  max-width: 150px;
   border-top: solid 5px;
   text-align: center;
   overflow: visible;
-  color: $ternary-color,
+  color: $ternary-color;
+  @media only screen and (min-width: 768px) {
+    max-width: 250px;
+  }
+  @media only screen and (min-width: 576px) {
+    max-width: 200px;
+  }
 }
 
 .underlined {

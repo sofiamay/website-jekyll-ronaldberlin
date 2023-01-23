@@ -13,99 +13,101 @@
 {% endif %}
 
 {% assign project_img_url = base_img_url | append: project.modal-id | append: "/" %}
+<div class="section">
 
-<div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" data-project="{{ project.modal-id }}" tabindex="-1" role="dialog"
-  aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header text-center">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl">
-            </div>
-          </div>
-        </div>
-        <h2>{{ project.title}}</h2>
-      </div>
-      <div class="modal-body">
-        <!-- ########## Section: Image Gallery ########## -->
-        <div class="container-fluid bg-light rounded-10">
-          <!-- Image and Description -->
-          <div class="row">
-            <div class="col-lg-12 mx-auto text-center"> 
-              <img src="{{site.url}}/{{ project_img_url | append: project.main-img }}" class="img-fluid img-centered gallery-main-img" id="portfolio-main-{{ project.modal-id }}" alt="{{ project.alt }}">
-            </div>
-          </div>
-          <!-- Image Carousel -->
-          <div class="row portfolio-gallery">
-            <div class="col-1 p-0 position-relative prev-arrow">
-              <a class="slick-prev" alt="previous"><i class="fa-solid fa-caret-left icon mb-4 d-inline-block"></i></a>
-            </div>
-            <div class="col-10 px-1 mx-auto text-center portfolio-slider" id="portfolioSlider-{{ project.modal-id }}">
-            {% for image in project.images %}
-            <!-- slider-item -->
-              <div class="text-center portfolio-content">
-                <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ project_img_url | append: image.full-size-url }}" data-project="{{ project.modal-id }}" src="{{ project_img_url | append: image.url }}" alt="{{ image.alt }}"></a>
+  <div class="portfolio-modal modal fade" id="portfolioModal-{{ project.modal-id }}" data-project="{{ project.modal-id }}" tabindex="-1" role="dialog"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header text-center">
+          <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+              <div class="rl">
               </div>
-            {% endfor %}
-            </div>
-            <div class="col-1 p-0 position-relative next-arrow">
-              <!-- <button type="button" class="slick-next">Next</button> -->
-              <a class="slick-next" alt="next"><i class="fa-solid fa-caret-right icon mb-4 d-inline-block"></i></a>
             </div>
           </div>
+          <h2>{{ project.title}}</h2>
         </div>
+        <div class="modal-body">
+          <!-- ########## Section: Image Gallery ########## -->
+          <div class="container-fluid bg-light rounded-10">
+            <!-- Image and Description -->
+            <div class="row">
+              <div class="col-lg-12 mx-auto text-center"> 
+                <img src="{{site.url}}/{{ project_img_url | append: project.main-img }}" class="img-fluid img-centered gallery-main-img" id="portfolio-main-{{ project.modal-id }}" alt="{{ project.alt }}">
+              </div>
+            </div>
+            <!-- Image Carousel -->
+            <div class="row portfolio-gallery">
+              <div class="col-1 p-0 position-relative prev-arrow">
+                <a class="slick-prev" alt="previous"><i class="fa-solid fa-caret-left icon mb-4 d-inline-block"></i></a>
+              </div>
+              <div class="col-10 px-1 mx-auto text-center portfolio-slider" id="portfolioSlider-{{ project.modal-id }}">
+              {% for image in project.images %}
+              <!-- slider-item -->
+                <div class="text-center portfolio-content">
+                  <a><img class="img-fluid rounded gallery-img" data-largesize="{{site.url}}/{{ project_img_url | append: image.full-size-url }}" data-project="{{ project.modal-id }}" src="{{ project_img_url | append: image.url }}" alt="{{ image.alt }}"></a>
+                </div>
+              {% endfor %}
+              </div>
+              <div class="col-1 p-0 position-relative next-arrow">
+                <!-- <button type="button" class="slick-next">Next</button> -->
+                <a class="slick-next" alt="next"><i class="fa-solid fa-caret-right icon mb-4 d-inline-block"></i></a>
+              </div>
+            </div>
+          </div>
 
-        <!-- ########## Section: Description and Info ########## -->
-        <div class="container-fluid">
-          <!-- Divider -->
-          <div class="row">
-            <div class="col">
-              <hr class="divider">
+          <!-- ########## Section: Description and Info ########## -->
+          <div class="container-fluid">
+            <!-- Divider -->
+            <div class="row">
+              <div class="col">
+                <hr class="divider">
+              </div>
             </div>
-          </div>
-          <!-- Description of Project -->
-          <div class="row portfolio-description">
-            <div class="col-10 mx-auto text-center">
-              {% if project.description %}
-                <p>{{ project.description }}</p>
-              {% endif %}
+            <!-- Description of Project -->
+            <div class="row portfolio-description">
+              <div class="col-10 mx-auto text-center">
+                {% if project.description %}
+                  <p>{{ project.description }}</p>
+                {% endif %}
+              </div>
             </div>
-          </div>
-          <!-- Project Info -->
-          <div class="row">
-            <div class="col-lg-12">
-                <ul class="list-inline item-details d-flex justify-content-center">
-                    {% if project.contractor %}
-                      <li class="">Contractor:
-                        <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
-                      </li>
-                    {% endif %}
-                    {% if project.photog %}
-                      <li class="">Photo:
-                        <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
-                      </li>
-                    {% endif %}
-                    {% if project.year %}
-                      <li class="">Date:
-                        <strong class="link-color">{{ project.year }}</strong>
-                      </li>
-                    {% endif %}
-                  </ul>
+            <!-- Project Info -->
+            <div class="row">
+              <div class="col-lg-12">
+                  <ul class="list-inline item-details d-flex justify-content-center">
+                      {% if project.contractor %}
+                        <li class="">Contractor:
+                          <strong><a href="{{ project.contractor-url }}">{{ project.contractor }}</a></strong>
+                        </li>
+                      {% endif %}
+                      {% if project.photog %}
+                        <li class="">Photo:
+                          <strong><a href="{{ project.photog-url }}">{{ project.photog }}</a></strong>
+                        </li>
+                      {% endif %}
+                      {% if project.year %}
+                        <li class="">Date:
+                          <strong class="link-color">{{ project.year }}</strong>
+                        </li>
+                      {% endif %}
+                    </ul>
+              </div>
             </div>
-          </div>
-          <!-- CLose Button -->
-          <div class="row">
-            <div class="col-lg-12 text-center">
-              <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa-solid fa-x"></i>
-                Close</button>
+            <!-- CLose Button -->
+            <div class="row">
+              <div class="col-lg-12 text-center">
+                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa-solid fa-x"></i>
+                  Close</button>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
     </div>
   </div>
+  {% endfor %}
+
 </div>
-{% endfor %}
 <!-- /Modals/ -->

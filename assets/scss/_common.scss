@@ -119,11 +119,17 @@ hr {
 
 hr.section-title {
   margin: 25px auto 80px;
-  max-width: 250px;
+  max-width: 150px;
   border-top: solid 5px;
   text-align: center;
   overflow: visible;
-  color: $ternary-color,
+  color: $ternary-color;
+  @media only screen and (min-width: 768px) {
+    max-width: 250px;
+  }
+  @media only screen and (min-width: 576px) {
+    max-width: 200px;
+  }
 }
 
 .underlined {
@@ -434,4 +440,40 @@ textarea.form-control{
     bottom: -100px;
   }
 }
-/* /Headings/ */
+/* /Page Titles/ */
+
+/* Select */
+
+select {
+  // A reset of styles, including removing the default dropdown arrow
+  appearance: none;
+  -webkit-appearance: none;
+  // Additional resets for further consistency
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+select::-ms-expand {
+  display: none;
+}
+
+/* /Select */
+
+/* Responsive Display */
+@media (max-width: 575px) {
+  .hide-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .show-only-xs {
+    display: none !important;
+  }
+}

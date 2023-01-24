@@ -163,7 +163,7 @@
       autoplaySpeed: 2000,
     });
 
-      /* ########################################### /Gallery ############################################## */
+      /* ########################################### Gallery ############################################## */
       $(".gallery-img").click(function(e){
         // portfolioModal-{{ project.modal-id }}
         var imgSrc = $(this).data('largesize');
@@ -175,6 +175,7 @@
           })
           .fadeIn(250);
       });
+      /* ########################################### /Gallery/ ############################################## */
   });
 
   // clients logo slider
@@ -231,6 +232,10 @@
     if (input.checked) {
       myShuffle.filter(input.value);
     }
+  });
+
+  $('#portfolio-choices').change(function(){
+    myShuffle.filter($(this).val());
   });
   
 

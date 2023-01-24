@@ -440,4 +440,17 @@ textarea.form-control{
     bottom: -100px;
   }
 }
-/* /Headings/ */
+/* /Page Titles/ */
+
+/* Responsive Display */
+@media (max-width: 575px) {
+  .hide-xs {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .show-only-xs {
+    display: none !important;
+  }
+}

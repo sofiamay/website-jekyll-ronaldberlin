@@ -1,3 +1,41 @@
+/* Dropdown Menu */
+
+#portfolio-selection {
+  margin: auto;
+  display: grid;
+  grid-template-areas: "select";
+  width: 100%;
+  min-width: 10ch;
+  max-width: 20ch;
+  // border: 1px solid $primary-color;
+  border-radius: 0.25em;
+  padding: 0.25em 0.5em;
+  font-size: 1.25rem;
+  cursor: pointer;
+  line-height: 1.1;
+  background-color: #E8F6FF;
+  background-image: linear-gradient(to top, $secondary-color, #E8F6FF 33%);
+  align-items: center;
+  &:after {
+    content: "";
+    width: 0.8em;
+    height: 0.5em;
+    background-color: $primary-color;
+    clip-path: polygon(100% 0%, 0 0%, 50% 100%);
+    justify-self: end;
+  }
+}
+
+select, #portfolio-selection:after {
+  grid-area: select;
+}
+
+#portfolio-choices {
+  padding-left: 4px;
+}
+
+/* /Dropdown Menu/ */
+
 /* Portfolio Modal */
 
 .portfolio-modal {

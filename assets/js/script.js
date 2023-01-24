@@ -234,7 +234,7 @@
     }
   });
 
-  $('#portfolio-selection').change(function(){
+  $('#portfolio-choices').change(function(){
     myShuffle.filter($(this).val());
   });
   

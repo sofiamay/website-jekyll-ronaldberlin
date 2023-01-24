@@ -6,21 +6,29 @@
   grid-template-areas: "select";
   width: 100%;
   min-width: 10ch;
-  max-width: 20ch;
-  // border: 1px solid $primary-color;
-  border-radius: 0.25em;
+  border-radius: 0.3em;
   padding: 0.25em 0.5em;
   font-size: 1.25rem;
   cursor: pointer;
   line-height: 1.1;
-  background-color: #E8F6FF;
-  background-image: linear-gradient(to top, $secondary-color, #E8F6FF 33%);
+  background-color: $primary-color;
+  color: $white;
+  font-size: 16px;
+  padding: 12px 22px;
+  transition: .2s ease;
+  background-image: linear-gradient(to top, #464888, $primary-color 33%);
   align-items: center;
+  &:active {
+    background: lighten($color: $primary-color, $amount: 10) !important;
+  }
+  &:hover {
+    background: lighten($color: $primary-color, $amount: 10);
+  }
   &:after {
     content: "";
     width: 0.8em;
     height: 0.5em;
-    background-color: $primary-color;
+    background-color: $white;
     clip-path: polygon(100% 0%, 0 0%, 50% 100%);
     justify-self: end;
   }
@@ -32,6 +40,10 @@ select, #portfolio-selection:after {
 
 #portfolio-choices {
   padding-left: 4px;
+  text-align: center;
+  color: #fff !important;
+  font-family: $secondary-font;
+  font-weight: 600;
 }
 
 /* /Dropdown Menu/ */

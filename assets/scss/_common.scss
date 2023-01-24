@@ -447,6 +447,7 @@ textarea.form-control{
 select {
   // A reset of styles, including removing the default dropdown arrow
   appearance: none;
+  -webkit-appearance: none;
   // Additional resets for further consistency
   background-color: transparent;
   border: none;

@@ -293,6 +293,12 @@ hr.section-title {
 
 .bg-dark{
   background-color: #222222 !important;
+  a {
+    color: $dark-grey !important;
+    &:hover {
+      color: $gray !important;
+    }
+  }
 }
 
 /* icon */

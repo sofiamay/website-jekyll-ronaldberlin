@@ -1,3 +1,5 @@
+html, body {width: auto!important; overflow-x: hidden!important}
+
 body {
   background-color: $body-color;
   overflow-x: hidden;
@@ -96,6 +98,7 @@ a:hover {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
+  max-width: 100%;
 
   &-title {
     font-family: $secondary-font;

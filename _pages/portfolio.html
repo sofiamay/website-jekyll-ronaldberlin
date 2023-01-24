@@ -22,11 +22,12 @@ title: Portfolio
       </div>
         <!-- Show on xs only  -->
         <div class="show-only-xs">
-          {% for label in site.data.settings.portfolio-label %}
           <select name="portfolio-choices" id="portfolio-selection">
-            <option value="{{ label.type }}">{{ label.title }}</option>
+            <option name="shuffle-filter" value="all" selected>All</option>
+            {% for label in site.data.settings.portfolio-label %}
+            <option name="shuffle-filter" value="{{ label.type }}">{{ label.title }}</option>
+            {% endfor %}
           </select>
-          {% endfor %}
       </div>
     </div>
   </div>

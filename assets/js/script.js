@@ -233,6 +233,10 @@
       myShuffle.filter(input.value);
     }
   });
+
+  $('#portfolio-selection').change(function(){
+    myShuffle.filter($(this).val());
+  });
   
 
 })(jQuery);

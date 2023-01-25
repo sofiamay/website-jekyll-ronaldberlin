@@ -1,4 +1,4 @@
-portfolio-img-directory: "assets/images/portfolio/"
+portfolio-img-directory: "/assets/images/portfolio/"
 
 projects:
   - title: "1970s House"

@@ -2,6 +2,7 @@
 layout: about
 title: About Ronald Berlin Architect
 author: Ronald Berlin
+description: Ronald Berlin Architect is a residential and commercial architect based in Princeton, NJ
 image: assets/images/about/author.jpg
 signature: assets/images/about/signature.png
 ---

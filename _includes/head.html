@@ -47,5 +47,11 @@
 
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/377748b06e.js" crossorigin="anonymous"></script>
+
+  <!-- Jekhyll SEO Tage -->
+  {% seo %}
+  {% if page.image == nil %}
+  <meta property="og:image" content="{{ site.data.settings.default-image | relative_url }}">
+  {% endif %}
   
 </head>

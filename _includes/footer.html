@@ -3,23 +3,23 @@
   <div class="section">
     <div class="container">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 text-center text-md-left">
           <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
+          <p class="text-white paragraph-sm font-secondary">{{ site.data.settings.email }}</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center text-md-left">
           <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
+          <p class="text-white paragraph-sm font-secondary">{{ site.data.settings.phone }}</p>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 text-center text-md-left">
           <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+          <p class="text-white paragraph-sm font-secondary">{{ site.data.settings.address }}</p>
         </div>
       </div>
     </div>
   </div>
-  <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">{{site.data.settings.copyright | markdownify}}</p>
+  <div class="border-top text-center border-dark py-2">
+    <p class="mb-0 text-light paragraph-sm">{{site.data.settings.copyright | markdownify | remove: '<p>' | remove: '</p>'}}</p>
   </div>
 </footer>
 <!-- /footer -->

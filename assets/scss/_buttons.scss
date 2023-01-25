@@ -4,7 +4,7 @@
   font-family: $secondary-font;
   text-transform: capitalize;
   padding: 12px 22px;
-  border-radius: 5px;
+  border-radius: 3px;
   font-weight: 600;
   border: 0;
   position: relative;
@@ -29,11 +29,15 @@
     padding: 5px 10px;
     font-size: 15px;
   }
+  &-lg {
+    padding: 15px 50px;
+    font-size: 17px;
+  }
 }
 
 .btn-primary {
   background: $primary-color;
-  color: $white;
+  color: $white !important;
 
   &:active {
     background: lighten($color: $primary-color, $amount: 10) !important;

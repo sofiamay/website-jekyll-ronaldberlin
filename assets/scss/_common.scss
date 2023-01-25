@@ -293,6 +293,12 @@ hr.section-title {
 
 .bg-dark{
   background-color: #222222 !important;
+  a {
+    color: $dark-grey !important;
+    &:hover {
+      color: $gray !important;
+    }
+  }
 }
 
 /* icon */
@@ -451,6 +457,7 @@ select {
   // A reset of styles, including removing the default dropdown arrow
   appearance: none;
   -webkit-appearance: none;
+  -moz-appearance: none;
   // Additional resets for further consistency
   background-color: transparent;
   border: none;

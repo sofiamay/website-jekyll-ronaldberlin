@@ -76,8 +76,12 @@
     color: $white;
   }
 
+  a {
+    color: $white !important;
+  }
+
   a:hover {
-    color: $secondary-color;
+    color: $secondary-color !important;
   }
 }
 

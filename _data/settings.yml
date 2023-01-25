@@ -4,13 +4,13 @@
 
 title: Ronald Berlin Architect
 title-short: Ronald Berlin
-logo:
 author: Sofia Berlin
 description: Ronald Berlin Architect - Residential Architect based in Princeton NJ
 email: ronald@ronaldberlin.com
 phone: +880 2544 658 256
 address: 245 Jefferson Rd, Princeton, NJ, USA
 copyright: Copyright &copy; 2023 Designed and Developed by [Sofia Berlin](https://github.com/sofiamay)
+default-image: /assets/images/logos/PineappleLogo.jpg
 
 menu:
   - { name: About, link: "/about" }

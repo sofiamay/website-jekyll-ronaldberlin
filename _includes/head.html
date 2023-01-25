@@ -23,8 +23,17 @@
   <link href="{{ '/assets/scss/style.css' | relative_url }}" rel="stylesheet">
 
   <!--Favicon-->
-  <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
+<!--   <link rel="shortcut icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon">
+  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }} " type="image/x-icon"> -->
+
+  {% assign favicon_path = "/assets/images/favicons/"  %}
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ favicon_path | append: 'apple-touch-icon.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ favicon_path | append: 'favicon-32x32.png' | relative_url }}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ favicon_path | append: 'favicon-16x16.png' | relative_url }}">
+  <link rel="manifest" href="{{ favicon_path | append: 'site.webmanifest' | relative_url }}">
+  <link rel="mask-icon" href="{{ favicon_path | append: 'safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
 
   <!-- google analytics -->
   {% if site.data.settings.google-analytics %}

@@ -1,5 +1,9 @@
+{% assign top_section = false %}
+{% if include.is_top %}
+  {% assign top_section = include.is_top %}
+{% endif %}
 <!-- contact -->
-<section class="section" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
+<section class="section {% if top_section %}top-section{% endif %}" data-background="{{site.baseurl}}/assets/images/backgrounds/bg-dots.png">
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">

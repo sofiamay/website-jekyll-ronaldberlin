@@ -227,14 +227,14 @@ recognitions:
       name: Honors,
       icon: ti-medall,
       description: "View all",
-      link: honors.html,
+      link: recognition#honors-and-prizes,
       active: ,# Add true to select section
     }
   - {
       name: Publications,
       icon: fa-regular fa-file-lines,
       description: "View all",
-      link: publications.html,
+      link: recognition#publications,
       active: true, # Add true to select section
     }
   - {

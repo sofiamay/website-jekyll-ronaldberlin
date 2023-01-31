@@ -241,7 +241,7 @@ recognitions:
       name: Selected Work,
       icon: ti-home,
       description: "View All",
-      link: selected-work.html,
+      link: about#selected-works,
       active: ,# Add true to select section
     }
 

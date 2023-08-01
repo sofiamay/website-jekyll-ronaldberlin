@@ -34,6 +34,7 @@ p, .paragraph {
 
 h1,h2,h3,h4,h5,h6 {
   color: $text-color-dark;
+  font-weight: 300;
   font-family: $secondary-font;
   line-height: 1.2;
 }
@@ -53,7 +54,7 @@ h2, .h2{
   color: $ternary-color;
   font-family: $ternary-font;
   text-transform: uppercase;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 11vw;
   @media only screen and (min-width: 768px) {
     font-size: 7.5vw;

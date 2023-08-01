@@ -58,7 +58,8 @@
 .btn-transparent {
   background: transparent;
   color: $primary-color;
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: 300 !important;
 
   &:active,
   &:hover {

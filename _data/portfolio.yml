@@ -1,6 +1,36 @@
 portfolio-img-directory: "/assets/images/portfolio/"
 
 projects:
+  - title: "5th Avenue Apartment"
+    modal-id: "fifthave"
+    description: "RBA completely remodeled this Fifth Avenue apartment of a noted gallerist, in the process designing a custom linear light fixture for the display of her art, and creating an en-suite connection between living room and bedroom for everyday comfort. Custom furniture pieces and moldings are integral to the design."
+    alt: "Renovation on the fifth avenue apartment of a gallerist by Ronald Berlin Architect."
+    # contractor: ""
+    contractor-url: ""
+    # photog: ""
+    photo-url: ""
+    year: "2022"
+    icon: "assets/images/portfolio/fifthave_icon.jpg"
+    main-img: "fifthave_2.jpg"
+    portfolio-type:
+      - type: "residential"
+    images:
+      - url: "fifthave_1_icon.jpg"
+        full-size-url: "fifthave_1.jpg"
+        alt: "dining room to living room view of an apartment designed by Ronald Rerlin Architect"
+
+      - url: "fifthave_2_icon.jpg"
+        full-size-url: "fifthave_2.jpg"
+        alt: "the living room, with views of the Guggenheim, of an apartment designed by Ronald Berlin Architect"
+
+      - url: "fifthave_3_icon.jpg"
+        full-size-url: "fifthave_3.jpg"
+        alt: "tiled shower of an apartment designed by Ronald Berlin Architect"
+
+      - url: "fifthave_4_icon.jpg"
+        full-size-url: "fifthave_4.jpg"
+        alt: "bedroom to livingroom view of an apartment designed by Ronald Berlin Architect"
+
   - title: "1970s House"
     modal-id: "davis"
     description: "RBA created additions and alterations to a 1970s house in Princeton. The new symmetrical composition welcomes the visitor through a sculptural entry portico composed of classical elements."
@@ -244,36 +274,6 @@ projects:
       - url: "scott_4_icon.jpg"
         full-size-url: "scott_4.jpg"
         alt: "view of livinig oom of a New York apartment renovated by Ronald Rerlin Architect"
-
-  - title: "Victorian Home"
-    modal-id: "veale"
-    description: "RBA added a new entry, kitchen, and solarium to a 1890s Victorian home in Chatham, NJ, opening the house to daylight and to views of its lovely rear garden."
-    alt: "Energy-efficient country house in New HAmpshire designed by Ronald Berlin Architect."
-    # contractor: ""
-    contractor-url: ""
-    # photog: ""
-    photo-url: ""
-    year: "2020"
-    icon: "assets/images/portfolio/veale_icon.jpg"
-    main-img: "veale_1.jpg"
-    portfolio-type:
-      - type: "residential"
-    images:
-      - url: "veale_1_icon.jpg"
-        full-size-url: "veale_1.jpg"
-        alt: "exterior view of a Victorian House in NJ renovated by Ronald Rerlin Architect"
-
-      - url: "veale_2_icon.jpg"
-        full-size-url: "veale_2.jpg"
-        alt: "angled view of a Victorian House in NJ renovated by Ronald Rerlin Architect"
-
-      - url: "veale_3_icon.jpg"
-        full-size-url: "veale_3.jpg"
-        alt: "side of the front of a Victorian House in NJ renovated by Ronald Rerlin Architect"
-
-      - url: "veale_4_icon.jpg"
-        full-size-url: "veale_4.jpg"
-        alt: "entry way of a Victorian House in NJ renovated by Ronald Rerlin Architect"
 
   - title: "Rustic Garden Retreat"
     modal-id: "battle"
